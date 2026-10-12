@@ -24,36 +24,9 @@
 
 <br/>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Quién soy**
-Estudiante de *Diseño y Desarrollo de Software* en Lima. Me mueve crear cosas: si una idea se puede imaginar, quiero encontrar la forma de construirla.
-
-</td>
-<td width="50%" valign="top">
-
-**Qué me interesa**
-Software, diseño, web, apps móviles e impresión 3D. No me limito a un solo campo: prefiero entender cómo se conectan y aprender lo que cada proyecto pida.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Cómo trabajo**
-Me importa tanto cómo se ve algo como cómo funciona. Voy de la idea al prototipo y de ahí a algo usable.
-
-</td>
-<td width="50%" valign="top">
-
-**Abierto a**
-Colaborar, aprender de otros y sumarme a proyectos de cualquier área, no solo de código.
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="./assets/sobre-mi.svg" alt="Quién soy: Erick Gamarra, estudiante de Diseño y Desarrollo de Software en Lima; me mueve crear, si una idea se puede imaginar busco la forma de construirla. Qué hago: desarrollo web y de software, diseño de interfaces y proyectos de impresión 3D; voy de la idea al prototipo y de ahí a algo usable. Cómo trabajo: me importa tanto cómo se ve algo como cómo funciona; prefiero entender cómo se conectan las áreas. Abierto a: colaborar, aprender de otros y sumarme a proyectos de cualquier área. Ahora: construyendo Hardcover Bookery, una tienda en línea de libros, y aprendiendo con cada proyecto." width="100%"/>
+</div>
 
 <br/>
 
