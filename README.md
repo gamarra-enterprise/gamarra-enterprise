@@ -1,93 +1,104 @@
-<!-- Cabecera animada (ola). Cambia el texto en text= -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:555555&height=200&section=header&text=Hola%2C%20soy%20TU_NOMBRE&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Desarrollador%20%7C%20Creador%20%7C%20Aprendiz%20constante&descAlignY=58&descSize=18" alt="header"/>
-</p>
+<div align="center">
 
-<!-- Texto que se escribe solo. Separa las frases con ; -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Construyo+cosas+con+c%C3%B3digo;Siempre+aprendiendo+algo+nuevo;Abierto+a+colaborar+en+proyectos" alt="Typing SVG"/>
-  </a>
-</p>
+<img src="./assets/banner.svg" alt="Erick Gamarra - Diseño y desarrollo de software" width="100%"/>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=gamarra-enterprise&label=Visitas&color=000000&style=for-the-badge" alt="visitas"/>
-  <img src="https://img.shields.io/github/followers/gamarra-enterprise?style=for-the-badge&logo=github&color=000000" alt="seguidores"/>
-</p>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&height=45&lines=Construyo+interfaces+con+React;Creo+APIs+y+servicios+con+Node.js;Estudio+Dise%C3%B1o+y+Desarrollo+de+Software" alt="Typing SVG"/>
+</a>
 
----
+<br/>
 
-## 👤 Sobre mí
+<img src="https://komarev.com/ghpvc/?username=gamarra-enterprise&label=VISITAS&color=7aa2f7&labelColor=12151f&style=flat-square" alt="visitas"/>
+<img src="https://img.shields.io/github/followers/gamarra-enterprise?label=SEGUIDORES&style=flat-square&color=bb9af7&labelColor=12151f" alt="seguidores"/>
+<img src="https://img.shields.io/badge/UBICACI%C3%93N-Lima%2C%20Per%C3%BA-7aa2f7?style=flat-square&labelColor=12151f" alt="ubicación"/>
 
-- 🎯 Actualmente trabajo en: **[tu proyecto actual]**
-- 📚 Estoy aprendiendo: **[tecnología que estás estudiando]**
-- 🛠️ Me gusta: programar, fabricación 3D, diseño y personalizar mi entorno Linux
-- 🌎 Ubicación: **[ciudad, país]**
-- 💬 Pregúntame sobre: **[temas en los que puedes ayudar]**
+</div>
 
----
+<br/>
 
-## 🧰 Tecnologías
+## Sobre mí
 
-<!-- Íconos de skillicons.dev: edita la lista en i=  (separados por coma) -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,rust,php,html,css,bash,linux,git,github,vscode,figma&theme=light" alt="skills"/>
-</p>
+<div align="center">
+  <img src="./assets/terminal.svg" alt="Terminal con mi información" width="85%"/>
+</div>
 
-<details>
-<summary><b>Ver lista completa de iconos disponibles</b></summary>
+<br/>
 
-Cambia los nombres en `i=` por cualquiera de: `c,cpp,cs,java,kotlin,go,rust,php,laravel,react,vue,angular,nextjs,nodejs,express,django,flask,fastapi,mysql,postgres,mongodb,sqlite,docker,aws,gcp,firebase,tailwind,bootstrap,sass,arduino,raspberrypi,fedora,ubuntu,idea,pycharm,webstorm,blender,unity,godot`.
-Lista oficial: https://skillicons.dev
+<table>
+<tr>
+<td width="50%" valign="top">
 
-</details>
+**Formación**
+Estudiante de *Diseño y Desarrollo de Software*.
 
----
+</td>
+<td width="50%" valign="top">
 
-## 📊 Estadísticas de GitHub
+**Enfoque**
+Interfaces web con **React** y servicios con **Node.js**. Me importa tanto cómo se ve como cómo funciona.
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gamarra-enterprise&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&icon_color=ffffff&text_color=cccccc" alt="stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamarra-enterprise&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=cccccc" alt="lenguajes"/>
-</p>
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=gamarra-enterprise&theme=dark&hide_border=true&background=000000&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=cccccc&currStreakNum=ffffff&sideNums=ffffff&dates=888888" alt="racha"/>
-</p>
+<br/>
 
----
+## Stack tecnológico
 
-## 📌 Proyectos destacados
+<div align="center">
+  <img src="./assets/stack.svg" alt="Tecnologías" width="100%"/>
+</div>
 
-<!-- Una tarjeta por repositorio: cambia repo=NOMBRE_DEL_REPO -->
-<p align="center">
-  <a href="https://github.com/gamarra-enterprise/REPO_1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gamarra-enterprise&repo=REPO_1&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=cccccc&icon_color=ffffff"/>
-  </a>
-  <a href="https://github.com/gamarra-enterprise/REPO_2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gamarra-enterprise&repo=REPO_2&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=cccccc&icon_color=ffffff"/>
-  </a>
-</p>
+<br/>
 
----
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,express,html,css,python,php,mysql,git,github,linux,figma,vscode&perline=15&theme=dark" alt="skills"/>
+</div>
 
-## 🐍 Contribuciones
+<br/>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gamarra-enterprise&theme=github-compact&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" alt="actividad"/>
-</p>
+## Estadísticas
 
----
+<div align="center">
 
-## 📫 Contacto
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=gamarra-enterprise&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0d12&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5&ring_color=7aa2f7&rank_icon=github" alt="estadísticas"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamarra-enterprise&layout=donut&theme=tokyonight&hide_border=true&bg_color=0b0d12&title_color=7aa2f7&text_color=c0caf5" alt="lenguajes"/>
 
-<p align="center">
-  <a href="mailto:3rick.gamarra@gmail.com"><img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/TU_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://twitter.com/TU_X"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
-  <a href="https://TU_SITIO.com"><img src="https://img.shields.io/badge/Portafolio-000000?style=for-the-badge&logo=firefox&logoColor=white"/></a>
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:555555,100:000000&height=100&section=footer" alt="footer"/>
-</p>
+<img src="https://streak-stats.demolab.com/?user=gamarra-enterprise&theme=tokyonight&hide_border=true&background=0b0d12&stroke=2a2f45&ring=7aa2f7&fire=bb9af7&currStreakLabel=7aa2f7&sideLabels=c0caf5&currStreakNum=ffffff&sideNums=ffffff&dates=565f89" alt="racha"/>
+
+</div>
+
+<br/>
+
+## Actividad
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gamarra-enterprise/gamarra-enterprise/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gamarra-enterprise/gamarra-enterprise/output/github-snake.svg"/>
+  <img alt="serpiente de contribuciones" src="https://raw.githubusercontent.com/gamarra-enterprise/gamarra-enterprise/output/github-snake-dark.svg"/>
+</picture>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gamarra-enterprise&theme=tokyo-night&bg_color=0b0d12&hide_border=true&area=true&custom_title=Contribuciones%20recientes" alt="actividad"/>
+
+</div>
+
+<br/>
+
+## Contacto
+
+<div align="center">
+
+<a href="mailto:3rick.gamarra@gmail.com"><img src="https://img.shields.io/badge/Gmail-12151f?style=for-the-badge&logo=gmail&logoColor=7aa2f7" alt="Gmail"/></a>
+<a href="https://github.com/gamarra-enterprise"><img src="https://img.shields.io/badge/GitHub-12151f?style=for-the-badge&logo=github&logoColor=bb9af7" alt="GitHub"/></a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:bb9af7&height=100&section=footer" width="100%" alt="pie"/>
+
+</div>

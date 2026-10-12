@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Erick Gamarra - Diseño y desarrollo de software">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07080c"/>
+      <stop offset="1" stop-color="#141826"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7aa2f7" stop-opacity="1"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#bb9af7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#bb9af7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#7aa2f7" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <style>
+      .name { font: 800 68px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; letter-spacing: 1px; }
+      .role { font: 600 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: url(#accent); letter-spacing: 4px; }
+      .meta { font: 400 17px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #7f849c; letter-spacing: 1px; }
+      .tag  { font: 500 15px 'Consolas', 'Fira Code', monospace; fill: #7aa2f7; letter-spacing: 1px; }
+      .reveal { clip-path: inset(0 100% 0 0); animation: reveal 2.2s cubic-bezier(.4,0,.2,1) .4s forwards; }
+      .fade1 { opacity: 0; animation: fadeUp 1s ease-out 2.4s forwards; }
+      .fade2 { opacity: 0; animation: fadeUp 1s ease-out 2.9s forwards; }
+      .float1 { animation: float 7s ease-in-out infinite; }
+      .float2 { animation: float 9s ease-in-out infinite reverse; }
+      .float3 { animation: float 11s ease-in-out infinite; }
+      .spin  { transform-origin: 1000px 160px; animation: spin 24s linear infinite; }
+      .spin2 { transform-origin: 1000px 160px; animation: spin 16s linear infinite reverse; }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      .scan  { animation: scan 7s linear infinite; }
+      .blink { animation: blink 1s steps(1) infinite; }
+      @keyframes reveal { to { clip-path: inset(0 0 0 0); } }
+      @keyframes fadeUp { from { opacity: 0; transform: translateY(12px);} to { opacity: 1; transform: translateY(0);} }
+      @keyframes float { 0%,100% { transform: translateY(0);} 50% { transform: translateY(-14px);} }
+      @keyframes spin { to { transform: rotate(360deg);} }
+      @keyframes pulse { 0%,100% { opacity: .5;} 50% { opacity: 1;} }
+      @keyframes scan { from { transform: translateX(-1200px);} to { transform: translateX(1200px);} }
+      @keyframes blink { 50% { opacity: 0;} }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .fade1,.fade2 { opacity: 1; } .reveal { clip-path: none; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+
+  <!-- haz de luz que recorre el banner -->
+  <rect class="scan" x="0" y="0" width="300" height="320" fill="url(#beam)" opacity="0.07"/>
+
+  <!-- resplandor y órbitas -->
+  <circle cx="1000" cy="160" r="170" fill="url(#glow)" class="pulse"/>
+  <circle cx="1000" cy="160" r="110" fill="none" stroke="#7aa2f7" stroke-opacity="0.25" stroke-dasharray="4 10"/>
+  <circle cx="1000" cy="160" r="70" fill="none" stroke="#bb9af7" stroke-opacity="0.35"/>
+  <circle cx="1000" cy="160" r="22" fill="url(#accent)" class="pulse"/>
+  <g class="spin"><circle cx="1110" cy="160" r="7" fill="#7aa2f7"/></g>
+  <g class="spin2"><circle cx="1000" cy="90" r="5" fill="#bb9af7"/></g>
+
+  <!-- partículas flotantes -->
+  <circle class="float1" cx="860" cy="60" r="4" fill="#7aa2f7" fill-opacity="0.6"/>
+  <circle class="float2" cx="900" cy="270" r="6" fill="#bb9af7" fill-opacity="0.45"/>
+  <circle class="float3" cx="1150" cy="50" r="3" fill="#7aa2f7" fill-opacity="0.7"/>
+  <circle class="float2" cx="760" cy="240" r="3" fill="#bb9af7" fill-opacity="0.5"/>
+
+  <!-- texto principal -->
+  <text class="tag fade1" x="72" y="80">&lt;/&gt; PERFIL DE DESARROLLADOR</text>
+  <g class="reveal">
+    <text class="name" x="70" y="160">Erick Gamarra</text>
+  </g>
+  <text class="role fade1" x="72" y="212">DISEÑO Y DESARROLLO DE SOFTWARE</text>
+  <text class="meta fade2" x="72" y="254">Lima, Perú   ·   React   ·   Node.js   ·   JavaScript</text>
+  <rect class="blink" x="72" y="272" width="14" height="3" fill="#7aa2f7"/>
+
+  <!-- barra inferior con degradado -->
+  <rect x="0" y="315" width="1200" height="5" fill="url(#accent)"/>
+</svg>

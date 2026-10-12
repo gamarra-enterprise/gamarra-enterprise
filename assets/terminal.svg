@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Terminal con información de Erick Gamarra">
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <style>
+      .m { font: 400 18px 'Consolas','Fira Code','DejaVu Sans Mono',monospace; }
+      .p { fill: #7aa2f7; }
+      .c { fill: #c0caf5; }
+      .k { fill: #bb9af7; }
+      .v { fill: #9ece6a; }
+      .d { fill: #565f89; }
+      /* cada línea aparece escribiéndose con pasos */
+      .l1 { clip-path: inset(0 100% 0 0); animation: type 1.0s steps(18) 0.5s forwards; }
+      .l2 { clip-path: inset(0 100% 0 0); animation: type 1.2s steps(40) 1.8s forwards; }
+      .l3 { clip-path: inset(0 100% 0 0); animation: type 1.0s steps(22) 3.4s forwards; }
+      .l4 { clip-path: inset(0 100% 0 0); animation: type 1.4s steps(46) 4.6s forwards; }
+      .l5 { clip-path: inset(0 100% 0 0); animation: type 1.0s steps(24) 6.4s forwards; }
+      .l6 { clip-path: inset(0 100% 0 0); animation: type 1.6s steps(52) 7.6s forwards; }
+      .cur { animation: blink 1s steps(1) infinite; }
+      @keyframes type { to { clip-path: inset(0 0 0 0); } }
+      @keyframes blink { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; clip-path: none !important; } }
+    </style>
+  </defs>
+
+  <!-- ventana -->
+  <rect x="1" y="1" width="898" height="298" rx="14" fill="#0b0d12" stroke="#7aa2f7" stroke-opacity="0.35"/>
+  <path d="M1 15a14 14 0 0 1 14-14h870a14 14 0 0 1 14 14v26H1z" fill="#12151f"/>
+  <rect x="1" y="40" width="898" height="2" fill="url(#bar)"/>
+  <circle cx="26" cy="21" r="6" fill="#f7768e"/>
+  <circle cx="48" cy="21" r="6" fill="#e0af68"/>
+  <circle cx="70" cy="21" r="6" fill="#9ece6a"/>
+  <text class="m d" x="450" y="27" text-anchor="middle" font-size="14">erick@lima: ~/perfil</text>
+
+  <!-- contenido -->
+  <g class="m">
+    <g class="l1"><text x="30" y="78"><tspan class="p">$ </tspan><tspan class="c">whoami</tspan></text></g>
+    <g class="l2"><text x="30" y="106"><tspan class="v">Erick Gamarra</tspan><tspan class="d">  // Lima, Perú</tspan></text></g>
+
+    <g class="l3"><text x="30" y="148"><tspan class="p">$ </tspan><tspan class="c">cat carrera.txt</tspan></text></g>
+    <g class="l4"><text x="30" y="176"><tspan class="k">estudio</tspan><tspan class="c"> = </tspan><tspan class="v">"Diseño y desarrollo de software"</tspan></text></g>
+
+    <g class="l5"><text x="30" y="218"><tspan class="p">$ </tspan><tspan class="c">ls stack/</tspan></text></g>
+    <g class="l6"><text x="30" y="246"><tspan class="k">react</tspan><tspan class="d">  </tspan><tspan class="k">node</tspan><tspan class="d">  </tspan><tspan class="k">javascript</tspan><tspan class="d">  </tspan><tspan class="k">html</tspan><tspan class="d">  </tspan><tspan class="k">css</tspan></text></g>
+
+    <text x="30" y="282"><tspan class="p">$ </tspan><tspan class="cur c">▌</tspan></text>
+  </g>
+</svg>
