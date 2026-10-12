@@ -65,10 +65,12 @@
       @keyframes st { 0%,100% { opacity: .3; } 50% { opacity: 1; } }
       .flow { animation: flow 3.2s linear infinite; }
       @keyframes flow { to { stroke-dashoffset: -12; } }
-      .hdrift { animation: hdrift 70s linear infinite; }
-      .ldrift { animation: ldrift 110s linear infinite; }
-      @keyframes hdrift { to { transform: translateX(-320px); } }
-      @keyframes ldrift { to { transform: translateX(-660px); } }
+      .hdrift { animation: hdrift 48s linear infinite; }
+      .ldrift { animation: ldrift 80s linear infinite; }
+      .sway { animation: sway 26s ease-in-out infinite alternate; }
+      @keyframes sway { from { transform: translate(0,0); } to { transform: translate(0,9px); } }
+      @keyframes hdrift { to { transform: translateX(320px); } }
+      @keyframes ldrift { to { transform: translateX(660px); } }
       .base { opacity: .5; }
       .scan  { animation: scan 7s linear infinite; }
       .blink { animation: blink 1s steps(1) infinite; }
@@ -96,8 +98,8 @@
   <rect class="scan" x="0" y="0" width="300" height="320" fill="url(#beam)" opacity="0.07"/>
 
   <!-- anillo de fondo, toma inicial del menú de Halo: la superficie se desliza sobre la forma fija; mismo haz (scan) -->
-  <g opacity="0.24"><g transform="translate(15 -186) scale(1.55)"><rect width="447" height="447" fill="#9db8ff" mask="url(#scMask)"/><g mask="url(#hullShape)"><g mask="url(#hullTex)"><rect width="447" height="447" fill="#8fa6ff"/></g></g><g opacity="1" mask="url(#landShape)"><g mask="url(#landTex)"><rect width="447" height="447" fill="#7dcfff"/></g></g></g></g>
-  <g mask="url(#sweepMask)" opacity="0.5"><g transform="translate(15 -186) scale(1.55)"><rect width="447" height="447" fill="#e4ecff" mask="url(#scMask)"/><g mask="url(#hullShape)"><g mask="url(#hullTex)"><rect width="447" height="447" fill="#dfe6ff"/></g></g><g opacity="1" mask="url(#landShape)"><g mask="url(#landTex)"><rect width="447" height="447" fill="#c5efff"/></g></g></g></g>
+  <g opacity="0.24"><g transform="translate(0 -190) scale(1.55)"><g class="sway"><rect width="447" height="447" fill="#9db8ff" mask="url(#scMask)"/><g mask="url(#hullShape)"><g mask="url(#hullTex)"><rect width="447" height="447" fill="#8fa6ff"/></g></g><g opacity="1" mask="url(#landShape)"><g mask="url(#landTex)"><rect width="447" height="447" fill="#7dcfff"/></g></g></g></g></g>
+  <g mask="url(#sweepMask)" opacity="0.5"><g transform="translate(0 -190) scale(1.55)"><g class="sway"><rect width="447" height="447" fill="#e4ecff" mask="url(#scMask)"/><g mask="url(#hullShape)"><g mask="url(#hullTex)"><rect width="447" height="447" fill="#dfe6ff"/></g></g><g opacity="1" mask="url(#landShape)"><g mask="url(#landTex)"><rect width="447" height="447" fill="#c5efff"/></g></g></g></g></g>
 
   <g mask="url(#skyFade)">
     <use xlink:href="#stars" opacity="0.6"/>
