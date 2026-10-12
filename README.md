@@ -74,9 +74,20 @@ Interfaces web con **React** y servicios con **Node.js**. Me importa tanto cómo
 
 ## Actividad
 
-<div align="center">
-  <img src="./profile-3d-contrib/profile-custom.svg" alt="Contribuciones en 3D" width="100%"/>
-</div>
+<table>
+<tr>
+<td width="50%" align="center" valign="middle">
+
+<img src="./profile-3d-contrib/radar.svg" alt="Radar de actividad" width="100%"/>
+
+</td>
+<td width="50%" align="center" valign="middle">
+
+<img src="./profile-3d-contrib/lenguajes.svg" alt="Lenguajes más usados" width="100%"/>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
