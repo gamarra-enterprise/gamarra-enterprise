@@ -43,14 +43,6 @@ Interfaces web con **React** y servicios con **Node.js**. Me importa tanto cómo
 
 <br/>
 
-## Aventura
-
-<div align="center">
-  <img src="./assets/terraria.svg" alt="Pixel art estilo Terraria: el terrariano llega caminando, se detiene, hace un emote y se va" width="100%"/>
-</div>
-
-<br/>
-
 ## Stack tecnológico
 
 <div align="center">
