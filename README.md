@@ -8,9 +8,10 @@
 
 <br/>
 
-<img src="https://hits.sh/github.com/gamarra-enterprise/gamarra-enterprise.svg?style=flat-square&label=VISITAS&color=7aa2f7&labelColor=12151f" alt="visitas"/>
-<img src="https://img.shields.io/github/followers/gamarra-enterprise?label=SEGUIDORES&style=flat-square&color=bb9af7&labelColor=12151f" alt="seguidores"/>
-<img src="https://img.shields.io/badge/UBICACI%C3%93N-Lima%2C%20Per%C3%BA-7aa2f7?style=flat-square&labelColor=12151f" alt="ubicación"/>
+<img src="https://hits.sh/github.com/gamarra-enterprise/gamarra-enterprise.svg?style=for-the-badge&label=VISITAS&color=7aa2f7&labelColor=12151f" alt="visitas" height="24"/>
+<img src="https://img.shields.io/github/followers/gamarra-enterprise?label=SEGUIDORES&style=for-the-badge&color=bb9af7&labelColor=12151f" alt="seguidores" height="24"/>
+<br/>
+<img src="./assets/estado.svg" alt="Ubicación: Lima, Perú. Ahora: construyendo Hardcover, aprendiendo, diseñando interfaces" height="24"/>
 
 </div>
 
