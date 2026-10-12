@@ -18,12 +18,12 @@
       @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2.5px); } }
       .m0 { animation: m0 14s linear infinite normal; }
       @keyframes m0 { from { transform: translateX(0); } to { transform: translateX(-498px); } }
-      .m1 { animation: m1 17s linear infinite reverse; }
-      @keyframes m1 { from { transform: translateX(0); } to { transform: translateX(-589px); } }
+      .m1 { animation: m1 20s linear infinite reverse; }
+      @keyframes m1 { from { transform: translateX(0); } to { transform: translateX(-705px); } }
       .m2 { animation: m2 13s linear infinite normal; }
       @keyframes m2 { from { transform: translateX(0); } to { transform: translateX(-474px); } }
-      .m3 { animation: m3 12s linear infinite reverse; }
-      @keyframes m3 { from { transform: translateX(0); } to { transform: translateX(-409px); } }
+      .m3 { animation: m3 16s linear infinite reverse; }
+      @keyframes m3 { from { transform: translateX(0); } to { transform: translateX(-553px); } }
       .m4 { animation: m4 21s linear infinite normal; }
       @keyframes m4 { from { transform: translateX(0); } to { transform: translateX(-742px); } }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
@@ -59,13 +59,15 @@
     <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7aa2f7" x="630" y="72" width="104" height="34" rx="17"/><text class="t" x="682" y="94">Node.js</text></g>
     <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#7aa2f7" x="746" y="72" width="104" height="34" rx="17"/><text class="t" x="798" y="94">Express</text></g>
     <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#7aa2f7" x="862" y="72" width="95" height="34" rx="17"/><text class="t" x="910" y="94">Django</text></g>
-    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#7aa2f7" x="969" y="72" width="122" height="34" rx="17"/><text class="t" x="1030" y="94">REST APIs</text></g>
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#7aa2f7" x="1103" y="72" width="104" height="34" rx="17"/><text class="t" x="1155" y="94">Postman</text></g>
-    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#7aa2f7" x="1219" y="72" width="104" height="34" rx="17"/><text class="t" x="1271" y="94">Node.js</text></g>
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#7aa2f7" x="1335" y="72" width="104" height="34" rx="17"/><text class="t" x="1387" y="94">Express</text></g>
-    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#7aa2f7" x="1451" y="72" width="95" height="34" rx="17"/><text class="t" x="1498" y="94">Django</text></g>
-    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7aa2f7" x="1558" y="72" width="122" height="34" rx="17"/><text class="t" x="1619" y="94">REST APIs</text></g>
-    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7aa2f7" x="1692" y="72" width="104" height="34" rx="17"/><text class="t" x="1744" y="94">Postman</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#7aa2f7" x="969" y="72" width="104" height="34" rx="17"/><text class="t" x="1021" y="94">Laravel</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#7aa2f7" x="1085" y="72" width="122" height="34" rx="17"/><text class="t" x="1146" y="94">REST APIs</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#7aa2f7" x="1219" y="72" width="104" height="34" rx="17"/><text class="t" x="1271" y="94">Postman</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#7aa2f7" x="1335" y="72" width="104" height="34" rx="17"/><text class="t" x="1387" y="94">Node.js</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#7aa2f7" x="1451" y="72" width="104" height="34" rx="17"/><text class="t" x="1503" y="94">Express</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#7aa2f7" x="1567" y="72" width="95" height="34" rx="17"/><text class="t" x="1614" y="94">Django</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7aa2f7" x="1674" y="72" width="104" height="34" rx="17"/><text class="t" x="1726" y="94">Laravel</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7aa2f7" x="1790" y="72" width="122" height="34" rx="17"/><text class="t" x="1851" y="94">REST APIs</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#7aa2f7" x="1924" y="72" width="104" height="34" rx="17"/><text class="t" x="1976" y="94">Postman</text></g>
   </g></g>
   <rect x="630" y="64" width="40" height="52" fill="url(#fadeL)"/>
   <rect x="1110" y="64" width="40" height="52" fill="url(#fadeR)"/>
@@ -93,17 +95,15 @@
   <text class="lab" x="648" y="164" fill="#9ece6a">DATOS Y NUBE</text>
   <g clip-path="url(#c3)"><g class="m3">
     <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#9ece6a" x="630" y="184" width="86" height="34" rx="17"/><text class="t" x="673" y="206">MySQL</text></g>
-    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#9ece6a" x="728" y="184" width="67" height="34" rx="17"/><text class="t" x="762" y="206">SQL</text></g>
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#9ece6a" x="807" y="184" width="113" height="34" rx="17"/><text class="t" x="864" y="206">Firebase</text></g>
-    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#9ece6a" x="932" y="184" width="95" height="34" rx="17"/><text class="t" x="980" y="206">Docker</text></g>
-    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#9ece6a" x="1039" y="184" width="86" height="34" rx="17"/><text class="t" x="1082" y="206">MySQL</text></g>
-    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#9ece6a" x="1137" y="184" width="67" height="34" rx="17"/><text class="t" x="1170" y="206">SQL</text></g>
-    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#9ece6a" x="1216" y="184" width="113" height="34" rx="17"/><text class="t" x="1272" y="206">Firebase</text></g>
-    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#9ece6a" x="1341" y="184" width="95" height="34" rx="17"/><text class="t" x="1388" y="206">Docker</text></g>
-    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#9ece6a" x="1448" y="184" width="86" height="34" rx="17"/><text class="t" x="1491" y="206">MySQL</text></g>
-    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#9ece6a" x="1546" y="184" width="67" height="34" rx="17"/><text class="t" x="1580" y="206">SQL</text></g>
-    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#9ece6a" x="1625" y="184" width="113" height="34" rx="17"/><text class="t" x="1682" y="206">Firebase</text></g>
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#9ece6a" x="1750" y="184" width="95" height="34" rx="17"/><text class="t" x="1798" y="206">Docker</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#9ece6a" x="728" y="184" width="132" height="34" rx="17"/><text class="t" x="794" y="206">PostgreSQL</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#9ece6a" x="872" y="184" width="67" height="34" rx="17"/><text class="t" x="906" y="206">SQL</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#9ece6a" x="951" y="184" width="113" height="34" rx="17"/><text class="t" x="1008" y="206">Firebase</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#9ece6a" x="1076" y="184" width="95" height="34" rx="17"/><text class="t" x="1124" y="206">Docker</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#9ece6a" x="1183" y="184" width="86" height="34" rx="17"/><text class="t" x="1226" y="206">MySQL</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#9ece6a" x="1281" y="184" width="132" height="34" rx="17"/><text class="t" x="1347" y="206">PostgreSQL</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#9ece6a" x="1425" y="184" width="67" height="34" rx="17"/><text class="t" x="1458" y="206">SQL</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#9ece6a" x="1504" y="184" width="113" height="34" rx="17"/><text class="t" x="1560" y="206">Firebase</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#9ece6a" x="1629" y="184" width="95" height="34" rx="17"/><text class="t" x="1676" y="206">Docker</text></g>
   </g></g>
   <rect x="630" y="176" width="40" height="52" fill="url(#fadeL)"/>
   <rect x="1110" y="176" width="40" height="52" fill="url(#fadeR)"/>

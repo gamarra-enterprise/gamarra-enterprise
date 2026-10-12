@@ -60,29 +60,18 @@ Colaborar, aprender de otros y sumarme a proyectos de cualquier área, no solo d
 ## Stack tecnológico
 
 <div align="center">
-  <img src="./assets/stack.svg" alt="Tecnologías por área. Frontend: HTML5, CSS3, React, Figma, UI/UX. Backend: Node.js, Express, Django, REST APIs, Postman. Lenguajes: JavaScript, TypeScript, Python, PHP. Datos y nube: MySQL, SQL, Firebase, Docker. Herramientas y creación: Git, GitHub, Linux, VS Code, Android Studio, impresión 3D" width="100%"/>
+  <img src="./assets/stack.svg" alt="Tecnologías por área. Frontend: HTML5, CSS3, React, Figma, UI/UX. Backend: Node.js, Express, Django, Laravel, REST APIs, Postman. Lenguajes: JavaScript, TypeScript, Python, PHP. Datos y nube: MySQL, PostgreSQL, SQL, Firebase, Docker. Herramientas y creación: Git, GitHub, Linux, VS Code, Android Studio, impresión 3D" width="100%"/>
 </div>
 
 <br/>
 
 ## Proyectos
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[Hardcover-project](https://github.com/gamarra-enterprise/Hardcover-project)**
-Proyecto de librería. Hecho con **PHP**.
-
-</td>
-<td width="50%" valign="top">
-
-**Próximamente**
-Más proyectos en camino, de distintas áreas.
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <a href="https://github.com/gamarra-enterprise/Hardcover-project">
+    <img src="./assets/proyectos.svg" alt="Proyecto destacado: Hardcover Bookery, tienda en línea de libros y productos afines hecha con Laravel, Livewire, PostgreSQL y Docker. Lenguajes: PHP 57.8%, Blade 23.1%, HTML 10.4%, CSS 5.9%, JavaScript 2.6%. Haz clic para ver el repositorio." width="100%"/>
+  </a>
+</div>
 
 <br/>
 
