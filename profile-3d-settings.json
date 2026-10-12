@@ -1,18 +1,18 @@
 {
   "type": "normal",
   "fileName": "profile-custom.svg",
-  "backgroundColor": "#0b0d12",
-  "foregroundColor": "#c0caf5",
-  "strongColor": "#7aa2f7",
-  "weakColor": "#565f89",
-  "radarColor": "#bb9af7",
+  "backgroundColor": "#ffffff",
+  "foregroundColor": "#24283b",
+  "strongColor": "#3d59a1",
+  "weakColor": "#8c92ac",
+  "radarColor": "#8957e5",
   "growingAnimation": true,
   "contribColors": [
-    "#161b2a",
-    "#2a3a6b",
+    "#e9ecf5",
+    "#c3d0f2",
+    "#8fa9e8",
     "#4a69b8",
-    "#7aa2f7",
-    "#bb9af7"
+    "#8957e5"
   ],
   "l10n": {
     "commit": "Commits",
@@ -21,5 +21,19 @@
     "pullreq": "Pull Req",
     "issue": "Issues",
     "contrib": "contribuciones"
+  },
+  "darkMode": {
+    "backgroundColor": "#0b0d12",
+    "foregroundColor": "#c0caf5",
+    "strongColor": "#7aa2f7",
+    "weakColor": "#565f89",
+    "radarColor": "#bb9af7",
+    "contribColors": [
+      "#161b2a",
+      "#2a3a6b",
+      "#4a69b8",
+      "#7aa2f7",
+      "#bb9af7"
+    ]
   }
 }
