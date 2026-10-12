@@ -23,8 +23,8 @@
     <g class="ico" style="animation-delay:-0.0s"><circle cx="82" cy="70" r="28" fill="#7aa2f7" fill-opacity=".10" stroke="#7aa2f7" stroke-opacity=".45"/><g fill="none" stroke="#7aa2f7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="82" cy="65" r="6" /><path d="M71 83a11 9 0 0 1 22 0"/></g></g>
     <text class="lab" x="130" y="52" fill="#7aa2f7">QUIÉN SOY</text>
     <text class="tx" x="130" y="82">Erick Gamarra, estudiante de Diseño y Desarrollo</text>
-    <text class="tx" x="130" y="106">de Software en Lima. Me mueve crear: si una idea</text>
-    <text class="tx" x="130" y="130">se puede imaginar, busco la forma de construirla.</text>
+    <text class="tx" x="130" y="106">de Software en Lima, Perú. Me motiva convertir</text>
+    <text class="tx" x="130" y="130">ideas en soluciones concretas y bien construidas.</text>
   </g>
   <g class="in" style="animation-delay:0.18s">
     <rect class="card" stroke="#bb9af7" x="610" y="14" width="560" height="150" rx="16"/>
@@ -32,30 +32,30 @@
     <g class="ico" style="animation-delay:-0.7s"><circle cx="662" cy="70" r="28" fill="#bb9af7" fill-opacity=".10" stroke="#bb9af7" stroke-opacity=".45"/><g fill="none" stroke="#bb9af7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M657 62l-9 8 9 8M667 62l9 8-9 8M664 58l-4 24"/></g></g>
     <text class="lab" x="710" y="52" fill="#bb9af7">QUÉ HAGO</text>
     <text class="tx" x="710" y="82">Desarrollo web y de software, diseño de interfaces</text>
-    <text class="tx" x="710" y="106">y proyectos de impresión 3D. Voy de la idea al</text>
-    <text class="tx" x="710" y="130">prototipo y de ahí a algo que se pueda usar.</text>
+    <text class="tx" x="710" y="106">e impresión 3D. Acompaño el proceso completo:</text>
+    <text class="tx" x="710" y="130">de la idea al prototipo y a un producto usable.</text>
   </g>
   <g class="in" style="animation-delay:0.36s">
     <rect class="card" stroke="#9ece6a" x="30" y="182" width="560" height="150" rx="16"/>
     <rect class="shine" x="54" y="182" width="90" height="2" fill="#9ece6a"/>
     <g class="ico" style="animation-delay:-1.4s"><circle cx="82" cy="238" r="28" fill="#9ece6a" fill-opacity=".10" stroke="#9ece6a" stroke-opacity=".45"/><g fill="none" stroke="#9ece6a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M82 226l13 7-13 7-13-7zM69 239l13 7 13-7M69 246l13 7 13-7"/></g></g>
     <text class="lab" x="130" y="220" fill="#9ece6a">CÓMO TRABAJO</text>
-    <text class="tx" x="130" y="250">Me importa tanto cómo se ve algo como cómo</text>
-    <text class="tx" x="130" y="274">funciona. Prefiero entender cómo se conectan las</text>
-    <text class="tx" x="130" y="298">áreas antes que quedarme en una sola.</text>
+    <text class="tx" x="130" y="250">Cuido por igual la apariencia y el funcionamiento.</text>
+    <text class="tx" x="130" y="274">Me interesa entender cómo se integran las distintas</text>
+    <text class="tx" x="130" y="298">áreas de un proyecto.</text>
   </g>
   <g class="in" style="animation-delay:0.54s">
     <rect class="card" stroke="#f7768e" x="610" y="182" width="560" height="150" rx="16"/>
     <rect class="shine" x="634" y="182" width="90" height="2" fill="#f7768e"/>
     <g class="ico" style="animation-delay:-2.1s"><circle cx="662" cy="238" r="28" fill="#f7768e" fill-opacity=".10" stroke="#f7768e" stroke-opacity=".45"/><g fill="none" stroke="#f7768e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="656" cy="238" r="9"/><circle cx="668" cy="238" r="9"/></g></g>
     <text class="lab" x="710" y="220" fill="#f7768e">ABIERTO A</text>
-    <text class="tx" x="710" y="250">Colaborar, aprender de otros y sumarme a proyectos</text>
-    <text class="tx" x="710" y="274">de cualquier área, no solo de código.</text>
+    <text class="tx" x="710" y="250">Colaboraciones, aprendizaje continuo y proyectos</text>
+    <text class="tx" x="710" y="274">de cualquier área, no solo de programación.</text>
   </g>
   <g class="in" style="animation-delay:.8s">
     <rect x="30" y="350" width="1140" height="60" rx="16" fill="#0f121a" stroke="#7aa2f7" stroke-opacity=".38" stroke-width="1.2" stroke-dasharray="6 6"/>
     <circle class="dot" cx="64" cy="380.0" r="5" fill="#9ece6a"/>
     <text class="lab" x="84" y="384.0" fill="#9ece6a">AHORA</text>
-    <text class="strip" x="160" y="385.0">Construyendo Hardcover Bookery, una tienda en línea de libros, y aprendiendo con cada proyecto.</text>
+    <text class="strip" x="160" y="385.0">Desarrollando Hardcover Bookery, una tienda en línea de libros, y ampliando mi formación con cada proyecto.</text>
   </g>
 </svg>

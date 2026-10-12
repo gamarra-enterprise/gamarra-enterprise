@@ -21,7 +21,7 @@ if repos:
     elif m < 43200: t = f"hace {m // 1440} d"
     else: t = f"hace {m // 43200} mes" + ("es" if m >= 86400 else "")
     name = r["name"] if len(r["name"]) <= 18 else r["name"][:17] + "…"
-    text = f"En {name} · {t}"
+    text = f"Activo en {name} · {t}"
     svg = re.sub(r"<!--AHORA-->.*?<!--/AHORA-->", f"<!--AHORA-->{text}<!--/AHORA-->", svg)
     open(path, "w", encoding="utf-8").write(svg)
     print(text)

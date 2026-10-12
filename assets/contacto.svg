@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Contacto: ¿Tienes una idea? Hablemos. Escríbeme si quieres colaborar">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Contacto: construyamos algo juntos. Escríbeme para propuestas de trabajo o colaboraciones">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
     <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#bb9af7" stop-opacity="0"/><stop offset=".5" stop-color="#bb9af7" stop-opacity=".3"/><stop offset="1" stop-color="#bb9af7" stop-opacity="0"/></linearGradient>
@@ -24,6 +24,6 @@
   <circle class="ring" cx="472" cy="38" r="5" fill="none" stroke="#9ece6a" stroke-width="1.5"/>
   <circle class="dot" cx="472" cy="38" r="4" fill="#9ece6a"/>
   <text class="mono" x="488" y="42" fill="#9ece6a">DISPONIBLE PARA COLABORAR</text>
-  <g class="rev"><text class="sans" x="600" y="88" fill="#ffffff" font-size="32" font-weight="800" text-anchor="middle" letter-spacing=".5">¿Tienes una idea? <tspan fill="url(#g)">Hagámosla realidad.</tspan></text>
-  <text class="sans" x="600" y="120" fill="#7f849c" font-size="16" text-anchor="middle" letter-spacing=".5">Proyectos, colaboraciones o simplemente conversar de tecnología: escríbeme.</text></g>
+  <g class="rev"><text class="sans" x="600" y="88" fill="#ffffff" font-size="32" font-weight="800" text-anchor="middle" letter-spacing=".5">Construyamos algo <tspan fill="url(#g)">juntos.</tspan></text>
+  <text class="sans" x="600" y="120" fill="#7f849c" font-size="16" text-anchor="middle" letter-spacing=".5">Para propuestas de trabajo, colaboraciones o consultas sobre mis proyectos, escríbeme.</text></g>
 </svg>

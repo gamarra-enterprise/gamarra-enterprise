@@ -3,7 +3,7 @@
 <img src="./assets/banner.svg" alt="Erick Gamarra - Si puedes imaginarlo, puedes programarlo" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&height=45&lines=Convierto+ideas+en+software;Dise%C3%B1o%2C+c%C3%B3digo+y+creatividad;Abierto+a+aprender+en+cualquier+campo" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&height=45&lines=Desarrollo+de+software+y+dise%C3%B1o+de+interfaces;De+la+idea+al+producto+funcional;Abierto+a+colaborar+y+a+nuevos+retos" alt="Typing SVG"/>
 </a>
 
 <br/>
@@ -20,13 +20,13 @@
 ## Sobre mí
 
 <div align="center">
-  <img src="./assets/terminal.svg" alt="Terminal: whoami → Erick Gamarra, Lima, Perú. Estudia Diseño y desarrollo de software. Intereses: software, diseño, web, móvil, 3D y Linux" width="85%"/>
+  <img src="./assets/terminal.svg" alt="Erick Gamarra, Lima, Perú. Estudia Diseño y Desarrollo de Software. Áreas de interés: software, diseño, web, móvil, 3D y Linux" width="85%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="./assets/sobre-mi.svg" alt="Quién soy: Erick Gamarra, estudiante de Diseño y Desarrollo de Software en Lima; me mueve crear, si una idea se puede imaginar busco la forma de construirla. Qué hago: desarrollo web y de software, diseño de interfaces y proyectos de impresión 3D; voy de la idea al prototipo y de ahí a algo usable. Cómo trabajo: me importa tanto cómo se ve algo como cómo funciona; prefiero entender cómo se conectan las áreas. Abierto a: colaborar, aprender de otros y sumarme a proyectos de cualquier área. Ahora: construyendo Hardcover Bookery, una tienda en línea de libros, y aprendiendo con cada proyecto." width="100%"/>
+  <img src="./assets/sobre-mi.svg" alt="Perfil: Erick Gamarra, estudiante de Diseño y Desarrollo de Software en Lima, Perú. Desarrollo web y de software, diseño de interfaces e impresión 3D. Abierto a colaboraciones y proyectos de cualquier área. Actualmente desarrolla Hardcover Bookery, una tienda en línea de libros." width="100%"/>
 </div>
 
 <br/>
@@ -69,7 +69,7 @@
 
 <div align="center">
 
-<img src="./assets/contacto.svg" alt="¿Tienes una idea? Hagámosla realidad. Escríbeme si quieres colaborar" width="100%"/>
+<img src="./assets/contacto.svg" alt="Construyamos algo juntos. Escríbeme para propuestas de trabajo o colaboraciones" width="100%"/>
 
 <a href="mailto:gamarra.code@gmail.com"><img src="./assets/contacto-correo.svg" alt="Correo: gamarra.code@gmail.com" height="56"/></a>
 &nbsp;

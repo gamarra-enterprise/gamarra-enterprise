@@ -38,8 +38,8 @@
     <g class="l1"><text x="30" y="78"><tspan class="p">$ </tspan><tspan class="c">whoami</tspan></text></g>
     <g class="l2"><text x="30" y="106"><tspan class="v">Erick Gamarra</tspan><tspan class="d">  // Lima, Perú</tspan></text></g>
 
-    <g class="l3"><text x="30" y="148"><tspan class="p">$ </tspan><tspan class="c">cat carrera.txt</tspan></text></g>
-    <g class="l4"><text x="30" y="176"><tspan class="k">estudio</tspan><tspan class="c"> = </tspan><tspan class="v">"Diseño y desarrollo de software"</tspan></text></g>
+    <g class="l3"><text x="30" y="148"><tspan class="p">$ </tspan><tspan class="c">cat formacion.txt</tspan></text></g>
+    <g class="l4"><text x="30" y="176"><tspan class="k">programa</tspan><tspan class="c"> = </tspan><tspan class="v">"Diseño y desarrollo de software"</tspan></text></g>
 
     <g class="l5"><text x="30" y="218"><tspan class="p">$ </tspan><tspan class="c">ls intereses/</tspan></text></g>
     <g class="l6"><text x="30" y="246"><tspan class="k">software</tspan><tspan class="d">  </tspan><tspan class="k">diseño</tspan><tspan class="d">  </tspan><tspan class="k">web</tspan><tspan class="d">  </tspan><tspan class="k">móvil</tspan><tspan class="d">  </tspan><tspan class="k">3d</tspan><tspan class="d">  </tspan><tspan class="k">linux</tspan></text></g>
