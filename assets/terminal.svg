@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Terminal con información de Erick Gamarra">
+<svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Terminal con información de Erick Gamarra">
   <defs>
     <linearGradient id="bar" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/>
@@ -16,7 +16,7 @@
       .l3 { clip-path: inset(0 100% 0 0); animation: type 1.0s steps(22) 3.4s forwards; }
       .l4 { clip-path: inset(0 100% 0 0); animation: type 1.4s steps(46) 4.6s forwards; }
       .l5 { clip-path: inset(0 100% 0 0); animation: type 1.0s steps(24) 6.4s forwards; }
-      .l6 { clip-path: inset(0 100% 0 0); animation: type 1.6s steps(52) 7.6s forwards; }
+      .l6 { clip-path: inset(0 100% 0 0); animation: type 1.6s steps(44) 7.6s forwards; }
       .cur { animation: blink 1s steps(1) infinite; }
       @keyframes type { to { clip-path: inset(0 0 0 0); } }
       @keyframes blink { 50% { opacity: 0; } }
@@ -41,8 +41,8 @@
     <g class="l3"><text x="30" y="148"><tspan class="p">$ </tspan><tspan class="c">cat carrera.txt</tspan></text></g>
     <g class="l4"><text x="30" y="176"><tspan class="k">estudio</tspan><tspan class="c"> = </tspan><tspan class="v">"Diseño y desarrollo de software"</tspan></text></g>
 
-    <g class="l5"><text x="30" y="218"><tspan class="p">$ </tspan><tspan class="c">ls stack/</tspan></text></g>
-    <g class="l6"><text x="30" y="246"><tspan class="k">react</tspan><tspan class="d">  </tspan><tspan class="k">node</tspan><tspan class="d">  </tspan><tspan class="k">javascript</tspan><tspan class="d">  </tspan><tspan class="k">html</tspan><tspan class="d">  </tspan><tspan class="k">css</tspan></text></g>
+    <g class="l5"><text x="30" y="218"><tspan class="p">$ </tspan><tspan class="c">ls intereses/</tspan></text></g>
+    <g class="l6"><text x="30" y="246"><tspan class="k">software</tspan><tspan class="d">  </tspan><tspan class="k">diseño</tspan><tspan class="d">  </tspan><tspan class="k">web</tspan><tspan class="d">  </tspan><tspan class="k">móvil</tspan><tspan class="d">  </tspan><tspan class="k">3d</tspan><tspan class="d">  </tspan><tspan class="k">linux</tspan></text></g>
 
     <text x="30" y="282"><tspan class="p">$ </tspan><tspan class="cur c">▌</tspan></text>
   </g>

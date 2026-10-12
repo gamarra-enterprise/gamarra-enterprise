@@ -1,54 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Tecnologías">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="382" viewBox="0 0 1200 382" role="img" aria-label="Tecnologías por área">
   <defs>
-    <linearGradient id="fadeL" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0" stop-color="#0b0d12"/><stop offset="1" stop-color="#0b0d12" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="fadeR" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0" stop-color="#0b0d12" stop-opacity="0"/><stop offset="1" stop-color="#0b0d12"/>
-    </linearGradient>
     <linearGradient id="pillA" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/>
     </linearGradient>
     <style>
       .pill { fill: #12151f; stroke: url(#pillA); stroke-opacity: .55; stroke-width: 1.2; }
-      .t { font: 600 18px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #c0caf5; text-anchor: middle; }
-      .r1 { animation: left 32s linear infinite; }
-      .r2 { animation: right 38s linear infinite; }
-      @keyframes left  { from { transform: translateX(0);} to { transform: translateX(-1200px);} }
-      @keyframes right { from { transform: translateX(-1200px);} to { transform: translateX(0);} }
-      @media (prefers-reduced-motion: reduce) { .r1,.r2 { animation: none; } }
+      .t { font: 600 17px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #c0caf5; text-anchor: middle; }
+      .lab { font: 500 13px 'Consolas','Fira Code','DejaVu Sans Mono',monospace; fill: #7aa2f7; letter-spacing: 2px; }
+      .line { stroke: #7aa2f7; stroke-opacity: .12; }
+      .in { opacity: 0; animation: up .7s ease-out forwards; }
+      @keyframes up { from { opacity: 0; transform: translateY(8px);} to { opacity: 1; transform: translateY(0);} }
+      @media (prefers-reduced-motion: reduce) { .in { animation: none; opacity: 1; } }
     </style>
   </defs>
-  <rect width="1200" height="150" fill="#0b0d12"/>
-
-  <g class="r1">
-    <g id="row1">
-      <rect class="pill" x="20"  y="18" width="150" height="44" rx="22"/><text class="t" x="95"  y="46">JavaScript</text>
-      <rect class="pill" x="190" y="18" width="150" height="44" rx="22"/><text class="t" x="265" y="46">TypeScript</text>
-      <rect class="pill" x="360" y="18" width="110" height="44" rx="22"/><text class="t" x="415" y="46">React</text>
-      <rect class="pill" x="490" y="18" width="130" height="44" rx="22"/><text class="t" x="555" y="46">Node.js</text>
-      <rect class="pill" x="640" y="18" width="110" height="44" rx="22"/><text class="t" x="695" y="46">HTML5</text>
-      <rect class="pill" x="770" y="18" width="110" height="44" rx="22"/><text class="t" x="825" y="46">CSS3</text>
-      <rect class="pill" x="900" y="18" width="130" height="44" rx="22"/><text class="t" x="965" y="46">Python</text>
-      <rect class="pill" x="1050" y="18" width="130" height="44" rx="22"/><text class="t" x="1115" y="46">Express</text>
-    </g>
-    <use href="#row1" x="1200"/>
+  <rect width="1200" height="382" fill="#0b0d12"/>
+  <g class="in" style="animation-delay:0.00s">
+    <text class="lab" x="30" y="51">LENGUAJES</text>
+    <rect class="pill" x="270" y="28" width="140" height="38" rx="19"/><text class="t" x="340" y="52">JavaScript</text>
+    <rect class="pill" x="424" y="28" width="140" height="38" rx="19"/><text class="t" x="494" y="52">TypeScript</text>
+    <rect class="pill" x="578" y="28" width="101" height="38" rx="19"/><text class="t" x="628" y="52">Python</text>
+    <rect class="pill" x="693" y="28" width="72" height="38" rx="19"/><text class="t" x="729" y="52">PHP</text>
+    <rect class="pill" x="779" y="28" width="72" height="38" rx="19"/><text class="t" x="815" y="52">SQL</text>
   </g>
-
-  <g class="r2">
-    <g id="row2">
-      <rect class="pill" x="20"  y="88" width="110" height="44" rx="22"/><text class="t" x="75"  y="116">Git</text>
-      <rect class="pill" x="150" y="88" width="130" height="44" rx="22"/><text class="t" x="215" y="116">GitHub</text>
-      <rect class="pill" x="300" y="88" width="120" height="44" rx="22"/><text class="t" x="360" y="116">Linux</text>
-      <rect class="pill" x="440" y="88" width="120" height="44" rx="22"/><text class="t" x="500" y="116">Figma</text>
-      <rect class="pill" x="580" y="88" width="120" height="44" rx="22"/><text class="t" x="640" y="116">MySQL</text>
-      <rect class="pill" x="720" y="88" width="110" height="44" rx="22"/><text class="t" x="775" y="116">PHP</text>
-      <rect class="pill" x="850" y="88" width="150" height="44" rx="22"/><text class="t" x="925" y="116">VS Code</text>
-      <rect class="pill" x="1020" y="88" width="160" height="44" rx="22"/><text class="t" x="1100" y="116">REST APIs</text>
-    </g>
-    <use href="#row2" x="1200"/>
+  <g class="in" style="animation-delay:0.15s">
+    <line class="line" x1="30" x2="1170" y1="74" y2="74"/>
+    <text class="lab" x="30" y="109">WEB</text>
+    <rect class="pill" x="270" y="86" width="92" height="38" rx="19"/><text class="t" x="316" y="110">HTML5</text>
+    <rect class="pill" x="376" y="86" width="82" height="38" rx="19"/><text class="t" x="417" y="110">CSS3</text>
+    <rect class="pill" x="472" y="86" width="92" height="38" rx="19"/><text class="t" x="518" y="110">React</text>
+    <rect class="pill" x="578" y="86" width="111" height="38" rx="19"/><text class="t" x="634" y="110">Node.js</text>
+    <rect class="pill" x="703" y="86" width="111" height="38" rx="19"/><text class="t" x="758" y="110">Express</text>
+    <rect class="pill" x="828" y="86" width="101" height="38" rx="19"/><text class="t" x="878" y="110">Django</text>
   </g>
-
-  <rect x="0" y="0" width="120" height="150" fill="url(#fadeL)"/>
-  <rect x="1080" y="0" width="120" height="150" fill="url(#fadeR)"/>
+  <g class="in" style="animation-delay:0.30s">
+    <line class="line" x1="30" x2="1170" y1="132" y2="132"/>
+    <text class="lab" x="30" y="167">DATOS Y APIS</text>
+    <rect class="pill" x="270" y="144" width="92" height="38" rx="19"/><text class="t" x="316" y="168">MySQL</text>
+    <rect class="pill" x="376" y="144" width="130" height="38" rx="19"/><text class="t" x="441" y="168">REST APIs</text>
+  </g>
+  <g class="in" style="animation-delay:0.45s">
+    <line class="line" x1="30" x2="1170" y1="190" y2="190"/>
+    <text class="lab" x="30" y="225">MÓVIL</text>
+    <rect class="pill" x="270" y="202" width="178" height="38" rx="19"/><text class="t" x="359" y="226">Android Studio</text>
+  </g>
+  <g class="in" style="animation-delay:0.60s">
+    <line class="line" x1="30" x2="1170" y1="248" y2="248"/>
+    <text class="lab" x="30" y="283">DISEÑO Y CREACIÓN</text>
+    <rect class="pill" x="270" y="260" width="92" height="38" rx="19"/><text class="t" x="316" y="284">Figma</text>
+    <rect class="pill" x="376" y="260" width="111" height="38" rx="19"/><text class="t" x="432" y="284">UI / UX</text>
+    <rect class="pill" x="501" y="260" width="159" height="38" rx="19"/><text class="t" x="580" y="284">Impresión 3D</text>
+  </g>
+  <g class="in" style="animation-delay:0.75s">
+    <line class="line" x1="30" x2="1170" y1="306" y2="306"/>
+    <text class="lab" x="30" y="341">HERRAMIENTAS</text>
+    <rect class="pill" x="270" y="318" width="72" height="38" rx="19"/><text class="t" x="306" y="342">Git</text>
+    <rect class="pill" x="356" y="318" width="101" height="38" rx="19"/><text class="t" x="406" y="342">GitHub</text>
+    <rect class="pill" x="471" y="318" width="92" height="38" rx="19"/><text class="t" x="517" y="342">Linux</text>
+    <rect class="pill" x="577" y="318" width="111" height="38" rx="19"/><text class="t" x="632" y="342">VS Code</text>
+  </g>
 </svg>

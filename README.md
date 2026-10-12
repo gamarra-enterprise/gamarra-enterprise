@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Erick Gamarra - Diseño y desarrollo de software" width="100%"/>
+<img src="./assets/banner.svg" alt="Erick Gamarra - Si puedes imaginarlo, puedes programarlo" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&height=45&lines=Construyo+interfaces+con+React;Creo+APIs+y+servicios+con+Node.js;Estudio+Dise%C3%B1o+y+Desarrollo+de+Software" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&height=45&lines=Convierto+ideas+en+software;Dise%C3%B1o%2C+c%C3%B3digo+y+creatividad;Abierto+a+aprender+en+cualquier+campo" alt="Typing SVG"/>
 </a>
 
 <br/>
@@ -19,7 +19,7 @@
 ## Sobre mí
 
 <div align="center">
-  <img src="./assets/terminal.svg" alt="Terminal: whoami → Erick Gamarra, Lima, Perú. Estudia Diseño y desarrollo de software. Stack: react, node, javascript, html, css" width="85%"/>
+  <img src="./assets/terminal.svg" alt="Terminal: whoami → Erick Gamarra, Lima, Perú. Estudia Diseño y desarrollo de software. Intereses: software, diseño, web, móvil, 3D y Linux" width="85%"/>
 </div>
 
 <br/>
@@ -28,14 +28,28 @@
 <tr>
 <td width="50%" valign="top">
 
-**Formación**
-Estudiante de *Diseño y Desarrollo de Software*.
+**Quién soy**
+Estudiante de *Diseño y Desarrollo de Software* en Lima. Me mueve crear cosas: si una idea se puede imaginar, quiero encontrar la forma de construirla.
 
 </td>
 <td width="50%" valign="top">
 
-**Enfoque**
-Interfaces web con **React** y servicios con **Node.js**. Me importa tanto cómo se ve como cómo funciona.
+**Qué me interesa**
+Software, diseño, web, apps móviles e impresión 3D. No me limito a un solo campo: prefiero entender cómo se conectan y aprender lo que cada proyecto pida.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Cómo trabajo**
+Me importa tanto cómo se ve algo como cómo funciona. Voy de la idea al prototipo y de ahí a algo usable.
+
+</td>
+<td width="50%" valign="top">
+
+**Abierto a**
+Colaborar, aprender de otros y sumarme a proyectos de cualquier área, no solo de código.
 
 </td>
 </tr>
@@ -46,7 +60,7 @@ Interfaces web con **React** y servicios con **Node.js**. Me importa tanto cómo
 ## Stack tecnológico
 
 <div align="center">
-  <img src="./assets/stack.svg" alt="Tecnologías: JavaScript, TypeScript, React, Node.js, HTML5, CSS3, Python, Express, Git, GitHub, Linux, Figma, MySQL, PHP, VS Code, REST APIs" width="100%"/>
+  <img src="./assets/stack.svg" alt="Tecnologías por área. Lenguajes: JavaScript, TypeScript, Python, PHP, SQL. Web: HTML5, CSS3, React, Node.js, Express, Django. Datos y APIs: MySQL, REST APIs. Móvil: Android Studio. Diseño y creación: Figma, UI/UX, impresión 3D. Herramientas: Git, GitHub, Linux, VS Code" width="100%"/>
 </div>
 
 <br/>
@@ -64,7 +78,7 @@ Proyecto de librería. Hecho con **PHP**.
 <td width="50%" valign="top">
 
 **Próximamente**
-Más proyectos con **React** y **Node.js** en camino.
+Más proyectos en camino, de distintas áreas.
 
 </td>
 </tr>
