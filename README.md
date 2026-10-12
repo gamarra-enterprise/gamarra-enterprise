@@ -75,7 +75,7 @@ Interfaces web con **React** y servicios con **Node.js**. Me importa tanto cómo
 ## Actividad
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Contribuciones en 3D" width="100%"/>
+  <img src="./profile-3d-contrib/profile-custom.svg" alt="Contribuciones en 3D" width="100%"/>
 </div>
 
 <br/>

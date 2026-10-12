@@ -1,0 +1,25 @@
+{
+  "type": "normal",
+  "fileName": "profile-custom.svg",
+  "backgroundColor": "#0b0d12",
+  "foregroundColor": "#c0caf5",
+  "strongColor": "#7aa2f7",
+  "weakColor": "#565f89",
+  "radarColor": "#bb9af7",
+  "growingAnimation": true,
+  "contribColors": [
+    "#161b2a",
+    "#2a3a6b",
+    "#4a69b8",
+    "#7aa2f7",
+    "#bb9af7"
+  ],
+  "l10n": {
+    "commit": "Commits",
+    "repo": "Repos",
+    "review": "Revisiones",
+    "pullreq": "Pull Req",
+    "issue": "Issues",
+    "contrib": "contribuciones"
+  }
+}
