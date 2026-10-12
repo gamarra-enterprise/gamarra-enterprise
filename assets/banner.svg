@@ -13,10 +13,6 @@
       <stop offset="0.5" stop-color="#7aa2f7" stop-opacity="1"/>
       <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#bb9af7" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#bb9af7" stop-opacity="0"/>
-    </radialGradient>
     <linearGradient id="emblemGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#9db8ff"/>
       <stop offset="1" stop-color="#c9a8ff"/>
@@ -34,7 +30,7 @@
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
     <mask id="sweepMask" maskUnits="userSpaceOnUse" x="880" y="40" width="240" height="240">
-      <rect class="sweep" x="-80" y="40" width="160" height="240" fill="url(#bandGrad)"/>
+      <rect class="scan" x="0" y="40" width="300" height="240" fill="url(#bandGrad)"/>
     </mask>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#7aa2f7" stroke-opacity="0.07" stroke-width="1"/>
@@ -51,17 +47,11 @@
       .float2 { animation: float 9s ease-in-out infinite reverse; }
       .float3 { animation: float 11s ease-in-out infinite; }
       .base { opacity: .5; }
-      .sweep { animation: sweep 3.6s ease-in-out infinite alternate; }
-      .comet { animation: comet 6s linear infinite; }
-      @keyframes sweep { from { transform: translateX(800px); } to { transform: translateX(1200px); } }
-      @keyframes comet { to { stroke-dashoffset: -928; } }
-      .pulse { animation: pulse 3s ease-in-out infinite; }
       .scan  { animation: scan 7s linear infinite; }
       .blink { animation: blink 1s steps(1) infinite; }
       @keyframes reveal { to { clip-path: inset(0 0 0 0); } }
       @keyframes fadeUp { from { opacity: 0; transform: translateY(12px);} to { opacity: 1; transform: translateY(0);} }
       @keyframes float { 0%,100% { transform: translateY(0);} 50% { transform: translateY(-14px);} }
-      @keyframes pulse { 0%,100% { opacity: .5;} 50% { opacity: 1;} }
       @keyframes scan { from { transform: translateX(-1200px);} to { transform: translateX(1200px);} }
       @keyframes blink { 50% { opacity: 0;} }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .base { opacity: 1; } .fade1,.fade2 { opacity: 1; } .reveal { clip-path: none; } }
@@ -74,14 +64,12 @@
   <!-- haz de luz que recorre el banner -->
   <rect class="scan" x="0" y="0" width="300" height="320" fill="url(#beam)" opacity="0.07"/>
 
-  <!-- resplandor, emblema con barrido de luz y marco -->
-  <circle cx="1000" cy="160" r="170" fill="url(#glow)" opacity="0.8"/>
+  <!-- emblema: se ilumina con el mismo haz (scan) que recorre el banner -->
   <g class="base"><rect x="895" y="55" width="210" height="210" fill="url(#emblemGrad)" mask="url(#emblemMask)"/></g>
   <g mask="url(#sweepMask)"><rect x="895" y="55" width="210" height="210" fill="url(#emblemBright)" mask="url(#emblemMask)"/></g>
 
-  <!-- marco angular que acompaña al emblema -->
+  <!-- esquinas angulares -->
   <path d="M884 76V54a10 10 0 0 1 10-10h22M1084 44h22a10 10 0 0 1 10 10v22M1116 244v22a10 10 0 0 1-10 10h-22M916 276h-22a10 10 0 0 1-10-10v-22" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
-  <rect class="comet" x="884" y="44" width="232" height="232" rx="10" fill="none" stroke="#9db8ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="70 858" pathLength="928"/>
 
   <!-- partículas flotantes -->
   <circle class="float1" cx="860" cy="60" r="4" fill="#7aa2f7" fill-opacity="0.6"/>
