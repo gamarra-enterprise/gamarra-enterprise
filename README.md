@@ -72,30 +72,16 @@ Interfaces web con **React** y servicios con **Node.js**. Me importa tanto cómo
 
 <br/>
 
-## Actividad
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gamarra-enterprise/gamarra-enterprise/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gamarra-enterprise/gamarra-enterprise/output/github-snake.svg"/>
-  <img alt="serpiente de contribuciones" src="https://raw.githubusercontent.com/gamarra-enterprise/gamarra-enterprise/output/github-snake-dark.svg"/>
-</picture>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gamarra-enterprise&theme=tokyo-night&bg_color=0b0d12&hide_border=true&area=true&custom_title=Contribuciones%20recientes" alt="actividad"/>
-
-</div>
-
-<br/>
-
 ## Contacto
 
 <div align="center">
 
-<a href="mailto:3rick.gamarra@gmail.com"><img src="https://img.shields.io/badge/Gmail-12151f?style=for-the-badge&logo=gmail&logoColor=7aa2f7" alt="Gmail"/></a>
-<a href="https://github.com/gamarra-enterprise"><img src="https://img.shields.io/badge/GitHub-12151f?style=for-the-badge&logo=github&logoColor=bb9af7" alt="GitHub"/></a>
+¿Tienes un proyecto o quieres colaborar? Escríbeme.
+
+<br/><br/>
+
+<a href="mailto:3rick.gamarra@gmail.com"><img src="https://img.shields.io/badge/CORREO-3rick.gamarra%40gmail.com-12151f?style=for-the-badge&logo=gmail&logoColor=7aa2f7&labelColor=12151f&color=12151f" alt="Correo"/></a>
+<a href="https://github.com/gamarra-enterprise"><img src="https://img.shields.io/badge/GITHUB-gamarra--enterprise-12151f?style=for-the-badge&logo=github&logoColor=bb9af7&labelColor=12151f&color=12151f" alt="GitHub"/></a>
 
 <br/><br/>
 
