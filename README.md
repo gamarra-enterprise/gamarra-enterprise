@@ -72,6 +72,14 @@ Interfaces web con **React** y servicios con **Node.js**. Me importa tanto cómo
 
 <br/>
 
+## Actividad
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" alt="Contribuciones en 3D" width="100%"/>
+</div>
+
+<br/>
+
 ## Contacto
 
 <div align="center">
