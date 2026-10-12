@@ -60,7 +60,7 @@ Colaborar, aprender de otros y sumarme a proyectos de cualquier área, no solo d
 ## Stack tecnológico
 
 <div align="center">
-  <img src="./assets/stack.svg" alt="Tecnologías por área. Lenguajes: JavaScript, TypeScript, Python, PHP, SQL. Web: HTML5, CSS3, React, Node.js, Express, Django. Datos y APIs: MySQL, REST APIs. Móvil: Android Studio. Diseño y creación: Figma, UI/UX, impresión 3D. Herramientas: Git, GitHub, Linux, VS Code" width="100%"/>
+  <img src="./assets/stack.svg" alt="Tecnologías por área. Lenguajes: JavaScript, TypeScript, Python, PHP, SQL. Web: HTML5, CSS3, React, Node.js, Express, Django. Datos, APIs y móvil: MySQL, REST APIs, Android Studio. Diseño y herramientas: Figma, UI/UX, impresión 3D, Git, GitHub, Linux, VS Code" width="100%"/>
 </div>
 
 <br/>

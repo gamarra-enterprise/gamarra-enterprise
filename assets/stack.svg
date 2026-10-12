@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="388" viewBox="0 0 1200 388" role="img" aria-label="Tecnologías por área">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="268" viewBox="0 0 1200 268" role="img" aria-label="Tecnologías por área">
   <defs>
-    <clipPath id="track"><rect x="280" y="0" width="890" height="388"/></clipPath>
+    <clipPath id="track"><rect x="280" y="0" width="890" height="268"/></clipPath>
     <linearGradient id="fadeL" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#0b0d12"/><stop offset="1" stop-color="#0b0d12" stop-opacity="0"/></linearGradient>
     <linearGradient id="fadeR" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#0b0d12" stop-opacity="0"/><stop offset="1" stop-color="#0b0d12"/></linearGradient>
     <style>
@@ -16,18 +16,14 @@
       @keyframes m0 { from { transform: translateX(0); } to { transform: translateX(-605px); } }
       .m1 { animation: m1 18s linear infinite reverse; }
       @keyframes m1 { from { transform: translateX(0); } to { transform: translateX(-685px); } }
-      .m2 { animation: m2 8s linear infinite normal; }
-      @keyframes m2 { from { transform: translateX(0); } to { transform: translateX(-254px); } }
-      .m3 { animation: m3 8s linear infinite reverse; }
-      @keyframes m3 { from { transform: translateX(0); } to { transform: translateX(-194px); } }
-      .m4 { animation: m4 10s linear infinite normal; }
-      @keyframes m4 { from { transform: translateX(0); } to { transform: translateX(-410px); } }
-      .m5 { animation: m5 11s linear infinite reverse; }
-      @keyframes m5 { from { transform: translateX(0); } to { transform: translateX(-440px); } }
+      .m2 { animation: m2 11s linear infinite normal; }
+      @keyframes m2 { from { transform: translateX(0); } to { transform: translateX(-448px); } }
+      .m3 { animation: m3 22s linear infinite reverse; }
+      @keyframes m3 { from { transform: translateX(0); } to { transform: translateX(-850px); } }
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     </style>
   </defs>
-  <rect width="1200" height="388" fill="#0b0d12"/>
+  <rect width="1200" height="268" fill="#0b0d12"/>
   <circle class="dot" cx="36" cy="45" r="4" fill="#7aa2f7" style="animation-delay:0.0s"/>
   <text class="lab" x="52" y="50" fill="#7aa2f7">LENGUAJES</text>
   <g clip-path="url(#track)"><g class="m0">
@@ -72,68 +68,44 @@
   </g></g>
   <line class="line" x1="30" x2="1170" y1="133" y2="133"/>
   <circle class="dot" cx="36" cy="165" r="4" fill="#9ece6a" style="animation-delay:0.6s"/>
-  <text class="lab" x="52" y="170" fill="#9ece6a">DATOS Y APIS</text>
+  <text class="lab" x="52" y="170" fill="#9ece6a">DATOS, APIS Y MÓVIL</text>
   <g clip-path="url(#track)"><g class="m2">
     <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#9ece6a" x="290" y="146" width="92" height="38" rx="19"/><text class="t" x="336" y="170">MySQL</text></g>
     <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#9ece6a" x="398" y="146" width="130" height="38" rx="19"/><text class="t" x="463" y="170">REST APIs</text></g>
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#9ece6a" x="544" y="146" width="92" height="38" rx="19"/><text class="t" x="590" y="170">MySQL</text></g>
-    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#9ece6a" x="652" y="146" width="130" height="38" rx="19"/><text class="t" x="717" y="170">REST APIs</text></g>
-    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#9ece6a" x="798" y="146" width="92" height="38" rx="19"/><text class="t" x="844" y="170">MySQL</text></g>
-    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#9ece6a" x="906" y="146" width="130" height="38" rx="19"/><text class="t" x="971" y="170">REST APIs</text></g>
-    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#9ece6a" x="1052" y="146" width="92" height="38" rx="19"/><text class="t" x="1098" y="170">MySQL</text></g>
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#9ece6a" x="1160" y="146" width="130" height="38" rx="19"/><text class="t" x="1225" y="170">REST APIs</text></g>
-    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#9ece6a" x="1306" y="146" width="92" height="38" rx="19"/><text class="t" x="1352" y="170">MySQL</text></g>
-    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#9ece6a" x="1414" y="146" width="130" height="38" rx="19"/><text class="t" x="1479" y="170">REST APIs</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#9ece6a" x="544" y="146" width="178" height="38" rx="19"/><text class="t" x="633" y="170">Android Studio</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#9ece6a" x="738" y="146" width="92" height="38" rx="19"/><text class="t" x="784" y="170">MySQL</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#9ece6a" x="846" y="146" width="130" height="38" rx="19"/><text class="t" x="911" y="170">REST APIs</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#9ece6a" x="992" y="146" width="178" height="38" rx="19"/><text class="t" x="1081" y="170">Android Studio</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#9ece6a" x="1186" y="146" width="92" height="38" rx="19"/><text class="t" x="1232" y="170">MySQL</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#9ece6a" x="1294" y="146" width="130" height="38" rx="19"/><text class="t" x="1359" y="170">REST APIs</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#9ece6a" x="1440" y="146" width="178" height="38" rx="19"/><text class="t" x="1529" y="170">Android Studio</text></g>
   </g></g>
   <line class="line" x1="30" x2="1170" y1="193" y2="193"/>
-  <circle class="dot" cx="36" cy="225" r="4" fill="#e0af68" style="animation-delay:0.9s"/>
-  <text class="lab" x="52" y="230" fill="#e0af68">MÓVIL</text>
+  <circle class="dot" cx="36" cy="225" r="4" fill="#f7768e" style="animation-delay:0.9s"/>
+  <text class="lab" x="52" y="230" fill="#f7768e">DISEÑO Y HERRAMIENTAS</text>
   <g clip-path="url(#track)"><g class="m3">
-    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#e0af68" x="290" y="206" width="178" height="38" rx="19"/><text class="t" x="379" y="230">Android Studio</text></g>
-    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#e0af68" x="484" y="206" width="178" height="38" rx="19"/><text class="t" x="573" y="230">Android Studio</text></g>
-    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#e0af68" x="678" y="206" width="178" height="38" rx="19"/><text class="t" x="767" y="230">Android Studio</text></g>
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#e0af68" x="872" y="206" width="178" height="38" rx="19"/><text class="t" x="961" y="230">Android Studio</text></g>
-    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#e0af68" x="1066" y="206" width="178" height="38" rx="19"/><text class="t" x="1155" y="230">Android Studio</text></g>
-    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#e0af68" x="1260" y="206" width="178" height="38" rx="19"/><text class="t" x="1349" y="230">Android Studio</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#f7768e" x="290" y="206" width="92" height="38" rx="19"/><text class="t" x="336" y="230">Figma</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#f7768e" x="398" y="206" width="111" height="38" rx="19"/><text class="t" x="454" y="230">UI / UX</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#f7768e" x="525" y="206" width="159" height="38" rx="19"/><text class="t" x="604" y="230">Impresión 3D</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#f7768e" x="700" y="206" width="72" height="38" rx="19"/><text class="t" x="736" y="230">Git</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#f7768e" x="788" y="206" width="101" height="38" rx="19"/><text class="t" x="838" y="230">GitHub</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#f7768e" x="905" y="206" width="92" height="38" rx="19"/><text class="t" x="951" y="230">Linux</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#f7768e" x="1013" y="206" width="111" height="38" rx="19"/><text class="t" x="1068" y="230">VS Code</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#f7768e" x="1140" y="206" width="92" height="38" rx="19"/><text class="t" x="1186" y="230">Figma</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#f7768e" x="1248" y="206" width="111" height="38" rx="19"/><text class="t" x="1304" y="230">UI / UX</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#f7768e" x="1375" y="206" width="159" height="38" rx="19"/><text class="t" x="1454" y="230">Impresión 3D</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#f7768e" x="1550" y="206" width="72" height="38" rx="19"/><text class="t" x="1586" y="230">Git</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#f7768e" x="1638" y="206" width="101" height="38" rx="19"/><text class="t" x="1688" y="230">GitHub</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#f7768e" x="1755" y="206" width="92" height="38" rx="19"/><text class="t" x="1801" y="230">Linux</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#f7768e" x="1863" y="206" width="111" height="38" rx="19"/><text class="t" x="1918" y="230">VS Code</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#f7768e" x="1990" y="206" width="92" height="38" rx="19"/><text class="t" x="2036" y="230">Figma</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#f7768e" x="2098" y="206" width="111" height="38" rx="19"/><text class="t" x="2154" y="230">UI / UX</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#f7768e" x="2225" y="206" width="159" height="38" rx="19"/><text class="t" x="2304" y="230">Impresión 3D</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#f7768e" x="2400" y="206" width="72" height="38" rx="19"/><text class="t" x="2436" y="230">Git</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#f7768e" x="2488" y="206" width="101" height="38" rx="19"/><text class="t" x="2538" y="230">GitHub</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#f7768e" x="2605" y="206" width="92" height="38" rx="19"/><text class="t" x="2651" y="230">Linux</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#f7768e" x="2713" y="206" width="111" height="38" rx="19"/><text class="t" x="2768" y="230">VS Code</text></g>
   </g></g>
-  <line class="line" x1="30" x2="1170" y1="253" y2="253"/>
-  <circle class="dot" cx="36" cy="285" r="4" fill="#f7768e" style="animation-delay:1.2s"/>
-  <text class="lab" x="52" y="290" fill="#f7768e">DISEÑO Y CREACIÓN</text>
-  <g clip-path="url(#track)"><g class="m4">
-    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#f7768e" x="290" y="266" width="92" height="38" rx="19"/><text class="t" x="336" y="290">Figma</text></g>
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#f7768e" x="398" y="266" width="111" height="38" rx="19"/><text class="t" x="454" y="290">UI / UX</text></g>
-    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#f7768e" x="525" y="266" width="159" height="38" rx="19"/><text class="t" x="604" y="290">Impresión 3D</text></g>
-    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#f7768e" x="700" y="266" width="92" height="38" rx="19"/><text class="t" x="746" y="290">Figma</text></g>
-    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#f7768e" x="808" y="266" width="111" height="38" rx="19"/><text class="t" x="864" y="290">UI / UX</text></g>
-    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#f7768e" x="935" y="266" width="159" height="38" rx="19"/><text class="t" x="1014" y="290">Impresión 3D</text></g>
-    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#f7768e" x="1110" y="266" width="92" height="38" rx="19"/><text class="t" x="1156" y="290">Figma</text></g>
-    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#f7768e" x="1218" y="266" width="111" height="38" rx="19"/><text class="t" x="1274" y="290">UI / UX</text></g>
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#f7768e" x="1345" y="266" width="159" height="38" rx="19"/><text class="t" x="1424" y="290">Impresión 3D</text></g>
-    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#f7768e" x="1520" y="266" width="92" height="38" rx="19"/><text class="t" x="1566" y="290">Figma</text></g>
-    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#f7768e" x="1628" y="266" width="111" height="38" rx="19"/><text class="t" x="1684" y="290">UI / UX</text></g>
-    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#f7768e" x="1755" y="266" width="159" height="38" rx="19"/><text class="t" x="1834" y="290">Impresión 3D</text></g>
-  </g></g>
-  <line class="line" x1="30" x2="1170" y1="313" y2="313"/>
-  <circle class="dot" cx="36" cy="345" r="4" fill="#7dcfff" style="animation-delay:1.5s"/>
-  <text class="lab" x="52" y="350" fill="#7dcfff">HERRAMIENTAS</text>
-  <g clip-path="url(#track)"><g class="m5">
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#7dcfff" x="290" y="326" width="72" height="38" rx="19"/><text class="t" x="326" y="350">Git</text></g>
-    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#7dcfff" x="378" y="326" width="101" height="38" rx="19"/><text class="t" x="428" y="350">GitHub</text></g>
-    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7dcfff" x="495" y="326" width="92" height="38" rx="19"/><text class="t" x="541" y="350">Linux</text></g>
-    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7dcfff" x="603" y="326" width="111" height="38" rx="19"/><text class="t" x="658" y="350">VS Code</text></g>
-    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7dcfff" x="730" y="326" width="72" height="38" rx="19"/><text class="t" x="766" y="350">Git</text></g>
-    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#7dcfff" x="818" y="326" width="101" height="38" rx="19"/><text class="t" x="868" y="350">GitHub</text></g>
-    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#7dcfff" x="935" y="326" width="92" height="38" rx="19"/><text class="t" x="981" y="350">Linux</text></g>
-    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#7dcfff" x="1043" y="326" width="111" height="38" rx="19"/><text class="t" x="1098" y="350">VS Code</text></g>
-    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#7dcfff" x="1170" y="326" width="72" height="38" rx="19"/><text class="t" x="1206" y="350">Git</text></g>
-    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#7dcfff" x="1258" y="326" width="101" height="38" rx="19"/><text class="t" x="1308" y="350">GitHub</text></g>
-    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#7dcfff" x="1375" y="326" width="92" height="38" rx="19"/><text class="t" x="1421" y="350">Linux</text></g>
-    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7dcfff" x="1483" y="326" width="111" height="38" rx="19"/><text class="t" x="1538" y="350">VS Code</text></g>
-    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7dcfff" x="1610" y="326" width="72" height="38" rx="19"/><text class="t" x="1646" y="350">Git</text></g>
-    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7dcfff" x="1698" y="326" width="101" height="38" rx="19"/><text class="t" x="1748" y="350">GitHub</text></g>
-    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#7dcfff" x="1815" y="326" width="92" height="38" rx="19"/><text class="t" x="1861" y="350">Linux</text></g>
-    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#7dcfff" x="1923" y="326" width="111" height="38" rx="19"/><text class="t" x="1978" y="350">VS Code</text></g>
-  </g></g>
-  <rect x="280" y="0" width="70" height="388" fill="url(#fadeL)"/>
-  <rect x="1100" y="0" width="70" height="388" fill="url(#fadeR)"/>
+  <rect x="280" y="0" width="70" height="268" fill="url(#fadeL)"/>
+  <rect x="1100" y="0" width="70" height="268" fill="url(#fadeR)"/>
 </svg>
