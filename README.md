@@ -8,7 +8,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=gamarra-enterprise&label=VISITAS&color=7aa2f7&labelColor=12151f&style=flat-square" alt="visitas"/>
+<img src="https://hits.sh/github.com/gamarra-enterprise/gamarra-enterprise.svg?style=flat-square&label=VISITAS&color=7aa2f7&labelColor=12151f" alt="visitas"/>
 <img src="https://img.shields.io/github/followers/gamarra-enterprise?label=SEGUIDORES&style=flat-square&color=bb9af7&labelColor=12151f" alt="seguidores"/>
 <img src="https://img.shields.io/badge/UBICACI%C3%93N-Lima%2C%20Per%C3%BA-7aa2f7?style=flat-square&labelColor=12151f" alt="ubicación"/>
 
@@ -112,7 +112,7 @@ Colaborar, aprender de otros y sumarme a proyectos de cualquier área, no solo d
 
 <br/><br/>
 
-<a href="mailto:gamarra.code@gmail.com"><img src="https://img.shields.io/badge/CORREO-3rick.gamarra%40gmail.com-12151f?style=for-the-badge&logo=gmail&logoColor=7aa2f7&labelColor=12151f&color=12151f" alt="Correo"/></a>
+<a href="mailto:gamarra.code@gmail.com"><img src="https://img.shields.io/badge/CORREO-gamarra.code%40gmail.com-12151f?style=for-the-badge&logo=gmail&logoColor=7aa2f7&labelColor=12151f&color=12151f" alt="Correo"/></a>
 <a href="https://github.com/gamarra-enterprise"><img src="https://img.shields.io/badge/GITHUB-gamarra--enterprise-12151f?style=for-the-badge&logo=github&logoColor=bb9af7&labelColor=12151f&color=12151f" alt="GitHub"/></a>
 
 <br/><br/>
