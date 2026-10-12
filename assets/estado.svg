@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="470" height="24" viewBox="0 0 470 24" role="img" aria-label="Ubicación: Lima, Perú. Ahora: construyendo, aprendiendo, diseñando">
+<svg xmlns="http://www.w3.org/2000/svg" width="522" height="24" viewBox="0 0 522 24" role="img" aria-label="Ubicación: Lima, Perú. Ahora: construyendo, aprendiendo, diseñando">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
     <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
     <clipPath id="c1"><rect x="0" y="0" width="210" height="24" rx="3"/></clipPath>
-    <clipPath id="c2"><rect x="222" y="0" width="248" height="24" rx="3"/></clipPath>
+    <clipPath id="c2"><rect x="222" y="0" width="300" height="24" rx="3"/></clipPath>
     <style>
       text { font: 700 10.5px 'Segoe UI','Helvetica Neue',Arial,sans-serif; letter-spacing: 1px; }
       .lab { fill: #e4ecff; }
@@ -29,10 +29,10 @@
     <rect class="sw" x="0" y="0" width="90" height="24" fill="url(#beam)"/>
   </g>
   <g clip-path="url(#c2)">
-    <rect x="222" width="248" height="24" fill="#12151f"/><rect x="222" width="62" height="24" fill="#1b2030"/>
+    <rect x="222" width="300" height="24" fill="#12151f"/><rect x="222" width="62" height="24" fill="#1b2030"/>
     <text class="lab" x="234" y="16">AHORA</text>
     <circle class="dot" cx="299" cy="12" r="3" fill="#9ece6a"/>
-    <text class="val w w1" x="311" y="16">Construyendo Hardcover</text>
+    <text class="val w w1" x="311" y="16"><!--AHORA-->En Hardcover-project · hace 11 h<!--/AHORA--></text>
     <text class="val w w2" x="311" y="16">Aprendiendo cada día</text>
     <text class="val w w3" x="311" y="16">Diseñando interfaces</text>
     <rect class="sw" x="222" y="0" width="90" height="24" fill="url(#beam)" style="animation-delay:-2.5s"/>

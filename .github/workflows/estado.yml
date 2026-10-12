@@ -1,0 +1,31 @@
+name: Actualizar estado
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/scripts/estado.py", ".github/workflows/estado.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  estado:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generar estado
+        run: python3 .github/scripts/estado.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Guardar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/estado.svg
+          git diff --cached --quiet || git commit -m "Actualiza estado (ahora)"
+          git pull --rebase -q
+          git push
