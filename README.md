@@ -51,10 +51,7 @@
 ## Estadísticas
 
 <div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=gamarra-enterprise&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0d12&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5&ring_color=7aa2f7&rank_icon=github" alt="estadísticas"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamarra-enterprise&layout=donut&theme=tokyonight&hide_border=true&bg_color=0b0d12&title_color=7aa2f7&text_color=c0caf5" alt="lenguajes"/>
-
+  <img src="./assets/estadisticas.svg" alt="Estadísticas de GitHub: commits, racha, repositorios, seguidores y lenguajes más usados" width="100%"/>
 </div>
 
 <br/>
@@ -62,23 +59,9 @@
 ## Actividad
 
 <div align="center">
-  <img src="./assets/actividad.svg" alt="Actividad: contribuciones y lenguajes más usados" width="100%"/>
+  <img src="./assets/actividad.svg" alt="Actividad: contribuciones y tipo de actividad" width="100%"/>
+  <img src="./assets/actividad-grafico.svg" alt="Calendario de contribuciones del último año y desglose por tipo de actividad" width="100%"/>
 </div>
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<img src="./profile-3d-contrib/radar.svg" alt="Radar de actividad" width="100%"/>
-
-</td>
-<td width="50%" align="center" valign="middle">
-
-<img src="./profile-3d-contrib/lenguajes.svg" alt="Lenguajes más usados" width="100%"/>
-
-</td>
-</tr>
-</table>
 
 <br/>
 

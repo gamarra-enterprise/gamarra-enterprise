@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/scripts/estado.py", ".github/workflows/estado.yml"]
+    paths: [".github/scripts/estado.py", ".github/scripts/stats.py", ".github/workflows/estado.yml"]
 
 permissions:
   contents: write
@@ -21,11 +21,15 @@ jobs:
         run: python3 .github/scripts/estado.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generar estadísticas y actividad
+        run: python3 .github/scripts/stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Guardar cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/estado.svg
+          git add assets/estado.svg assets/estadisticas.svg assets/actividad-grafico.svg
           git diff --cached --quiet || git commit -m "Actualiza estado (ahora)"
           git pull --rebase -q
           git push
