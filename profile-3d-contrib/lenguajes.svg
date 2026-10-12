@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="260" viewBox="0 0 520 260"><style>* { font-family: "Ubuntu", "Helvetica", "Arial", sans-serif; }
+.fill-fg { fill: #24283b; }
+.stroke-fg { stroke: #24283b; }
+.fill-bg { fill: #ffffff; }
+.stroke-bg { stroke: #ffffff; }
+@media (prefers-color-scheme: dark) {
+.fill-fg { fill: #c0caf5; }
+.stroke-fg { stroke: #c0caf5; }
+.fill-bg { fill: #0b0d12; }
+.stroke-bg { stroke: #0b0d12; }
+}</style><rect x="0" y="0" width="520" height="260" class="fill-bg"></rect><g transform="translate(0, 0)"><g transform="translate(273, 0)"><rect x="0" y="102.91666666666667" width="21.666666666666668" height="21.666666666666668" fill="#4F5D95" class="stroke-bg" stroke-width="1px"><animate attributeName="fill-opacity" values="0;0.2;0.4;0.6;0.8;1;1" dur="3s" repeatCount="1"></animate></rect><rect x="0" y="135.41666666666666" width="21.666666666666668" height="21.666666666666668" fill="#444444" class="stroke-bg" stroke-width="1px"><animate attributeName="fill-opacity" values="0;0;0.2;0.4;0.6;0.8;1" dur="3s" repeatCount="1"></animate></rect><text dominant-baseline="middle" x="26" y="113.75" class="fill-fg" font-size="21.666666666666668px">PHP<animate attributeName="fill-opacity" values="0;0.2;0.4;0.6;0.8;1;1" dur="3s" repeatCount="1"></animate></text><text dominant-baseline="middle" x="26" y="146.25" class="fill-fg" font-size="21.666666666666668px">other<animate attributeName="fill-opacity" values="0;0;0.2;0.4;0.6;0.8;1" dur="3s" repeatCount="1"></animate></text></g><g transform="translate(130, 130)"><path d="M0,-117A117,117,0,1,1,-96.289,-66.464L-53.494,-36.924A65,65,0,1,0,0,-65Z" style="fill: #4F5D95;" class="stroke-bg" stroke-width="2px"><title>PHP 88</title><animate attributeName="fill-opacity" values="0;0.2;0.4;0.6;0.8;1;1" dur="3s" repeatCount="1"></animate></path><path d="M-96.289,-66.464A117,117,0,0,1,0,-117L0,-65A65,65,0,0,0,-53.494,-36.924Z" style="fill: #444444;" class="stroke-bg" stroke-width="2px"><title>other 16</title><animate attributeName="fill-opacity" values="0;0;0.2;0.4;0.6;0.8;1" dur="3s" repeatCount="1"></animate></path></g></g></svg>
