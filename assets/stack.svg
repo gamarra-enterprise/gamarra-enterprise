@@ -1,61 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="382" viewBox="0 0 1200 382" role="img" aria-label="Tecnologías por área">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="388" viewBox="0 0 1200 388" role="img" aria-label="Tecnologías por área">
   <defs>
-    <linearGradient id="pillA" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/>
-    </linearGradient>
+    <clipPath id="track"><rect x="280" y="0" width="890" height="388"/></clipPath>
+    <linearGradient id="fadeL" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#0b0d12"/><stop offset="1" stop-color="#0b0d12" stop-opacity="0"/></linearGradient>
+    <linearGradient id="fadeR" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#0b0d12" stop-opacity="0"/><stop offset="1" stop-color="#0b0d12"/></linearGradient>
     <style>
-      .pill { fill: #12151f; stroke: url(#pillA); stroke-opacity: .55; stroke-width: 1.2; }
+      .pill { fill: #12151f; stroke-width: 1.4; stroke-opacity: .7; }
       .t { font: 600 17px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #c0caf5; text-anchor: middle; }
-      .lab { font: 500 13px 'Consolas','Fira Code','DejaVu Sans Mono',monospace; fill: #7aa2f7; letter-spacing: 2px; }
-      .line { stroke: #7aa2f7; stroke-opacity: .12; }
-      .in { opacity: 0; animation: up .7s ease-out forwards; }
-      @keyframes up { from { opacity: 0; transform: translateY(8px);} to { opacity: 1; transform: translateY(0);} }
-      @media (prefers-reduced-motion: reduce) { .in { animation: none; opacity: 1; } }
+      .lab { font: 500 13px 'Consolas','Fira Code','DejaVu Sans Mono',monospace; letter-spacing: 2px; }
+      .line { stroke: #7aa2f7; stroke-opacity: .10; }
+      .dot { animation: pulse 2.4s ease-in-out infinite; }
+      .bob { animation: bob 3.2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+      @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+      .m0 { animation: m0 15s linear infinite normal; }
+      @keyframes m0 { from { transform: translateX(0); } to { transform: translateX(-605px); } }
+      .m1 { animation: m1 18s linear infinite reverse; }
+      @keyframes m1 { from { transform: translateX(0); } to { transform: translateX(-685px); } }
+      .m2 { animation: m2 8s linear infinite normal; }
+      @keyframes m2 { from { transform: translateX(0); } to { transform: translateX(-254px); } }
+      .m3 { animation: m3 8s linear infinite reverse; }
+      @keyframes m3 { from { transform: translateX(0); } to { transform: translateX(-194px); } }
+      .m4 { animation: m4 10s linear infinite normal; }
+      @keyframes m4 { from { transform: translateX(0); } to { transform: translateX(-410px); } }
+      .m5 { animation: m5 11s linear infinite reverse; }
+      @keyframes m5 { from { transform: translateX(0); } to { transform: translateX(-440px); } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     </style>
   </defs>
-  <rect width="1200" height="382" fill="#0b0d12"/>
-  <g class="in" style="animation-delay:0.00s">
-    <text class="lab" x="30" y="51">LENGUAJES</text>
-    <rect class="pill" x="270" y="28" width="140" height="38" rx="19"/><text class="t" x="340" y="52">JavaScript</text>
-    <rect class="pill" x="424" y="28" width="140" height="38" rx="19"/><text class="t" x="494" y="52">TypeScript</text>
-    <rect class="pill" x="578" y="28" width="101" height="38" rx="19"/><text class="t" x="628" y="52">Python</text>
-    <rect class="pill" x="693" y="28" width="72" height="38" rx="19"/><text class="t" x="729" y="52">PHP</text>
-    <rect class="pill" x="779" y="28" width="72" height="38" rx="19"/><text class="t" x="815" y="52">SQL</text>
-  </g>
-  <g class="in" style="animation-delay:0.15s">
-    <line class="line" x1="30" x2="1170" y1="74" y2="74"/>
-    <text class="lab" x="30" y="109">WEB</text>
-    <rect class="pill" x="270" y="86" width="92" height="38" rx="19"/><text class="t" x="316" y="110">HTML5</text>
-    <rect class="pill" x="376" y="86" width="82" height="38" rx="19"/><text class="t" x="417" y="110">CSS3</text>
-    <rect class="pill" x="472" y="86" width="92" height="38" rx="19"/><text class="t" x="518" y="110">React</text>
-    <rect class="pill" x="578" y="86" width="111" height="38" rx="19"/><text class="t" x="634" y="110">Node.js</text>
-    <rect class="pill" x="703" y="86" width="111" height="38" rx="19"/><text class="t" x="758" y="110">Express</text>
-    <rect class="pill" x="828" y="86" width="101" height="38" rx="19"/><text class="t" x="878" y="110">Django</text>
-  </g>
-  <g class="in" style="animation-delay:0.30s">
-    <line class="line" x1="30" x2="1170" y1="132" y2="132"/>
-    <text class="lab" x="30" y="167">DATOS Y APIS</text>
-    <rect class="pill" x="270" y="144" width="92" height="38" rx="19"/><text class="t" x="316" y="168">MySQL</text>
-    <rect class="pill" x="376" y="144" width="130" height="38" rx="19"/><text class="t" x="441" y="168">REST APIs</text>
-  </g>
-  <g class="in" style="animation-delay:0.45s">
-    <line class="line" x1="30" x2="1170" y1="190" y2="190"/>
-    <text class="lab" x="30" y="225">MÓVIL</text>
-    <rect class="pill" x="270" y="202" width="178" height="38" rx="19"/><text class="t" x="359" y="226">Android Studio</text>
-  </g>
-  <g class="in" style="animation-delay:0.60s">
-    <line class="line" x1="30" x2="1170" y1="248" y2="248"/>
-    <text class="lab" x="30" y="283">DISEÑO Y CREACIÓN</text>
-    <rect class="pill" x="270" y="260" width="92" height="38" rx="19"/><text class="t" x="316" y="284">Figma</text>
-    <rect class="pill" x="376" y="260" width="111" height="38" rx="19"/><text class="t" x="432" y="284">UI / UX</text>
-    <rect class="pill" x="501" y="260" width="159" height="38" rx="19"/><text class="t" x="580" y="284">Impresión 3D</text>
-  </g>
-  <g class="in" style="animation-delay:0.75s">
-    <line class="line" x1="30" x2="1170" y1="306" y2="306"/>
-    <text class="lab" x="30" y="341">HERRAMIENTAS</text>
-    <rect class="pill" x="270" y="318" width="72" height="38" rx="19"/><text class="t" x="306" y="342">Git</text>
-    <rect class="pill" x="356" y="318" width="101" height="38" rx="19"/><text class="t" x="406" y="342">GitHub</text>
-    <rect class="pill" x="471" y="318" width="92" height="38" rx="19"/><text class="t" x="517" y="342">Linux</text>
-    <rect class="pill" x="577" y="318" width="111" height="38" rx="19"/><text class="t" x="632" y="342">VS Code</text>
-  </g>
+  <rect width="1200" height="388" fill="#0b0d12"/>
+  <circle class="dot" cx="36" cy="45" r="4" fill="#7aa2f7" style="animation-delay:0.0s"/>
+  <text class="lab" x="52" y="50" fill="#7aa2f7">LENGUAJES</text>
+  <g clip-path="url(#track)"><g class="m0">
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7aa2f7" x="290" y="26" width="140" height="38" rx="19"/><text class="t" x="360" y="50">JavaScript</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7aa2f7" x="446" y="26" width="140" height="38" rx="19"/><text class="t" x="516" y="50">TypeScript</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#7aa2f7" x="602" y="26" width="101" height="38" rx="19"/><text class="t" x="652" y="50">Python</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#7aa2f7" x="719" y="26" width="72" height="38" rx="19"/><text class="t" x="755" y="50">PHP</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#7aa2f7" x="807" y="26" width="72" height="38" rx="19"/><text class="t" x="843" y="50">SQL</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#7aa2f7" x="895" y="26" width="140" height="38" rx="19"/><text class="t" x="965" y="50">JavaScript</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#7aa2f7" x="1051" y="26" width="140" height="38" rx="19"/><text class="t" x="1121" y="50">TypeScript</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#7aa2f7" x="1207" y="26" width="101" height="38" rx="19"/><text class="t" x="1258" y="50">Python</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#7aa2f7" x="1324" y="26" width="72" height="38" rx="19"/><text class="t" x="1360" y="50">PHP</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7aa2f7" x="1412" y="26" width="72" height="38" rx="19"/><text class="t" x="1448" y="50">SQL</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#7aa2f7" x="1500" y="26" width="140" height="38" rx="19"/><text class="t" x="1570" y="50">JavaScript</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7aa2f7" x="1656" y="26" width="140" height="38" rx="19"/><text class="t" x="1726" y="50">TypeScript</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7aa2f7" x="1812" y="26" width="101" height="38" rx="19"/><text class="t" x="1862" y="50">Python</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#7aa2f7" x="1929" y="26" width="72" height="38" rx="19"/><text class="t" x="1965" y="50">PHP</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#7aa2f7" x="2017" y="26" width="72" height="38" rx="19"/><text class="t" x="2053" y="50">SQL</text></g>
+  </g></g>
+  <line class="line" x1="30" x2="1170" y1="73" y2="73"/>
+  <circle class="dot" cx="36" cy="105" r="4" fill="#bb9af7" style="animation-delay:0.3s"/>
+  <text class="lab" x="52" y="110" fill="#bb9af7">WEB</text>
+  <g clip-path="url(#track)"><g class="m1">
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#bb9af7" x="290" y="86" width="92" height="38" rx="19"/><text class="t" x="336" y="110">HTML5</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#bb9af7" x="398" y="86" width="82" height="38" rx="19"/><text class="t" x="439" y="110">CSS3</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#bb9af7" x="496" y="86" width="92" height="38" rx="19"/><text class="t" x="542" y="110">React</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#bb9af7" x="604" y="86" width="111" height="38" rx="19"/><text class="t" x="660" y="110">Node.js</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#bb9af7" x="731" y="86" width="111" height="38" rx="19"/><text class="t" x="786" y="110">Express</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#bb9af7" x="858" y="86" width="101" height="38" rx="19"/><text class="t" x="908" y="110">Django</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#bb9af7" x="975" y="86" width="92" height="38" rx="19"/><text class="t" x="1021" y="110">HTML5</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#bb9af7" x="1083" y="86" width="82" height="38" rx="19"/><text class="t" x="1124" y="110">CSS3</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#bb9af7" x="1181" y="86" width="92" height="38" rx="19"/><text class="t" x="1227" y="110">React</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#bb9af7" x="1289" y="86" width="111" height="38" rx="19"/><text class="t" x="1344" y="110">Node.js</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#bb9af7" x="1416" y="86" width="111" height="38" rx="19"/><text class="t" x="1472" y="110">Express</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#bb9af7" x="1543" y="86" width="101" height="38" rx="19"/><text class="t" x="1594" y="110">Django</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#bb9af7" x="1660" y="86" width="92" height="38" rx="19"/><text class="t" x="1706" y="110">HTML5</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#bb9af7" x="1768" y="86" width="82" height="38" rx="19"/><text class="t" x="1809" y="110">CSS3</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#bb9af7" x="1866" y="86" width="92" height="38" rx="19"/><text class="t" x="1912" y="110">React</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#bb9af7" x="1974" y="86" width="111" height="38" rx="19"/><text class="t" x="2030" y="110">Node.js</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#bb9af7" x="2101" y="86" width="111" height="38" rx="19"/><text class="t" x="2156" y="110">Express</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#bb9af7" x="2228" y="86" width="101" height="38" rx="19"/><text class="t" x="2278" y="110">Django</text></g>
+  </g></g>
+  <line class="line" x1="30" x2="1170" y1="133" y2="133"/>
+  <circle class="dot" cx="36" cy="165" r="4" fill="#9ece6a" style="animation-delay:0.6s"/>
+  <text class="lab" x="52" y="170" fill="#9ece6a">DATOS Y APIS</text>
+  <g clip-path="url(#track)"><g class="m2">
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#9ece6a" x="290" y="146" width="92" height="38" rx="19"/><text class="t" x="336" y="170">MySQL</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#9ece6a" x="398" y="146" width="130" height="38" rx="19"/><text class="t" x="463" y="170">REST APIs</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#9ece6a" x="544" y="146" width="92" height="38" rx="19"/><text class="t" x="590" y="170">MySQL</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#9ece6a" x="652" y="146" width="130" height="38" rx="19"/><text class="t" x="717" y="170">REST APIs</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#9ece6a" x="798" y="146" width="92" height="38" rx="19"/><text class="t" x="844" y="170">MySQL</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#9ece6a" x="906" y="146" width="130" height="38" rx="19"/><text class="t" x="971" y="170">REST APIs</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#9ece6a" x="1052" y="146" width="92" height="38" rx="19"/><text class="t" x="1098" y="170">MySQL</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#9ece6a" x="1160" y="146" width="130" height="38" rx="19"/><text class="t" x="1225" y="170">REST APIs</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#9ece6a" x="1306" y="146" width="92" height="38" rx="19"/><text class="t" x="1352" y="170">MySQL</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#9ece6a" x="1414" y="146" width="130" height="38" rx="19"/><text class="t" x="1479" y="170">REST APIs</text></g>
+  </g></g>
+  <line class="line" x1="30" x2="1170" y1="193" y2="193"/>
+  <circle class="dot" cx="36" cy="225" r="4" fill="#e0af68" style="animation-delay:0.9s"/>
+  <text class="lab" x="52" y="230" fill="#e0af68">MÓVIL</text>
+  <g clip-path="url(#track)"><g class="m3">
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#e0af68" x="290" y="206" width="178" height="38" rx="19"/><text class="t" x="379" y="230">Android Studio</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#e0af68" x="484" y="206" width="178" height="38" rx="19"/><text class="t" x="573" y="230">Android Studio</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#e0af68" x="678" y="206" width="178" height="38" rx="19"/><text class="t" x="767" y="230">Android Studio</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#e0af68" x="872" y="206" width="178" height="38" rx="19"/><text class="t" x="961" y="230">Android Studio</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#e0af68" x="1066" y="206" width="178" height="38" rx="19"/><text class="t" x="1155" y="230">Android Studio</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#e0af68" x="1260" y="206" width="178" height="38" rx="19"/><text class="t" x="1349" y="230">Android Studio</text></g>
+  </g></g>
+  <line class="line" x1="30" x2="1170" y1="253" y2="253"/>
+  <circle class="dot" cx="36" cy="285" r="4" fill="#f7768e" style="animation-delay:1.2s"/>
+  <text class="lab" x="52" y="290" fill="#f7768e">DISEÑO Y CREACIÓN</text>
+  <g clip-path="url(#track)"><g class="m4">
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#f7768e" x="290" y="266" width="92" height="38" rx="19"/><text class="t" x="336" y="290">Figma</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#f7768e" x="398" y="266" width="111" height="38" rx="19"/><text class="t" x="454" y="290">UI / UX</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#f7768e" x="525" y="266" width="159" height="38" rx="19"/><text class="t" x="604" y="290">Impresión 3D</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#f7768e" x="700" y="266" width="92" height="38" rx="19"/><text class="t" x="746" y="290">Figma</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#f7768e" x="808" y="266" width="111" height="38" rx="19"/><text class="t" x="864" y="290">UI / UX</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#f7768e" x="935" y="266" width="159" height="38" rx="19"/><text class="t" x="1014" y="290">Impresión 3D</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#f7768e" x="1110" y="266" width="92" height="38" rx="19"/><text class="t" x="1156" y="290">Figma</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#f7768e" x="1218" y="266" width="111" height="38" rx="19"/><text class="t" x="1274" y="290">UI / UX</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#f7768e" x="1345" y="266" width="159" height="38" rx="19"/><text class="t" x="1424" y="290">Impresión 3D</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#f7768e" x="1520" y="266" width="92" height="38" rx="19"/><text class="t" x="1566" y="290">Figma</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#f7768e" x="1628" y="266" width="111" height="38" rx="19"/><text class="t" x="1684" y="290">UI / UX</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#f7768e" x="1755" y="266" width="159" height="38" rx="19"/><text class="t" x="1834" y="290">Impresión 3D</text></g>
+  </g></g>
+  <line class="line" x1="30" x2="1170" y1="313" y2="313"/>
+  <circle class="dot" cx="36" cy="345" r="4" fill="#7dcfff" style="animation-delay:1.5s"/>
+  <text class="lab" x="52" y="350" fill="#7dcfff">HERRAMIENTAS</text>
+  <g clip-path="url(#track)"><g class="m5">
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#7dcfff" x="290" y="326" width="72" height="38" rx="19"/><text class="t" x="326" y="350">Git</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#7dcfff" x="378" y="326" width="101" height="38" rx="19"/><text class="t" x="428" y="350">GitHub</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7dcfff" x="495" y="326" width="92" height="38" rx="19"/><text class="t" x="541" y="350">Linux</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7dcfff" x="603" y="326" width="111" height="38" rx="19"/><text class="t" x="658" y="350">VS Code</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7dcfff" x="730" y="326" width="72" height="38" rx="19"/><text class="t" x="766" y="350">Git</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#7dcfff" x="818" y="326" width="101" height="38" rx="19"/><text class="t" x="868" y="350">GitHub</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#7dcfff" x="935" y="326" width="92" height="38" rx="19"/><text class="t" x="981" y="350">Linux</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#7dcfff" x="1043" y="326" width="111" height="38" rx="19"/><text class="t" x="1098" y="350">VS Code</text></g>
+    <g class="bob" style="animation-delay:-1.80s"><rect class="pill" stroke="#7dcfff" x="1170" y="326" width="72" height="38" rx="19"/><text class="t" x="1206" y="350">Git</text></g>
+    <g class="bob" style="animation-delay:-2.25s"><rect class="pill" stroke="#7dcfff" x="1258" y="326" width="101" height="38" rx="19"/><text class="t" x="1308" y="350">GitHub</text></g>
+    <g class="bob" style="animation-delay:-2.70s"><rect class="pill" stroke="#7dcfff" x="1375" y="326" width="92" height="38" rx="19"/><text class="t" x="1421" y="350">Linux</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7dcfff" x="1483" y="326" width="111" height="38" rx="19"/><text class="t" x="1538" y="350">VS Code</text></g>
+    <g class="bob" style="animation-delay:-0.00s"><rect class="pill" stroke="#7dcfff" x="1610" y="326" width="72" height="38" rx="19"/><text class="t" x="1646" y="350">Git</text></g>
+    <g class="bob" style="animation-delay:-0.45s"><rect class="pill" stroke="#7dcfff" x="1698" y="326" width="101" height="38" rx="19"/><text class="t" x="1748" y="350">GitHub</text></g>
+    <g class="bob" style="animation-delay:-0.90s"><rect class="pill" stroke="#7dcfff" x="1815" y="326" width="92" height="38" rx="19"/><text class="t" x="1861" y="350">Linux</text></g>
+    <g class="bob" style="animation-delay:-1.35s"><rect class="pill" stroke="#7dcfff" x="1923" y="326" width="111" height="38" rx="19"/><text class="t" x="1978" y="350">VS Code</text></g>
+  </g></g>
+  <rect x="280" y="0" width="70" height="388" fill="url(#fadeL)"/>
+  <rect x="1100" y="0" width="70" height="388" fill="url(#fadeR)"/>
 </svg>
