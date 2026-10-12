@@ -19,7 +19,7 @@
 ## Sobre mí
 
 <div align="center">
-  <img src="./assets/terminal.svg" alt="Terminal con mi información" width="85%"/>
+  <img src="./assets/terminal.svg" alt="Terminal: whoami → Erick Gamarra, Lima, Perú. Estudia Diseño y desarrollo de software. Stack: react, node, javascript, html, css" width="85%"/>
 </div>
 
 <br/>
@@ -46,14 +46,29 @@ Interfaces web con **React** y servicios con **Node.js**. Me importa tanto cómo
 ## Stack tecnológico
 
 <div align="center">
-  <img src="./assets/stack.svg" alt="Tecnologías" width="100%"/>
+  <img src="./assets/stack.svg" alt="Tecnologías: JavaScript, TypeScript, React, Node.js, HTML5, CSS3, Python, Express, Git, GitHub, Linux, Figma, MySQL, PHP, VS Code, REST APIs" width="100%"/>
 </div>
 
 <br/>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,express,html,css,python,php,mysql,git,github,linux,figma,vscode&perline=15&theme=dark" alt="skills"/>
-</div>
+## Proyectos
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[Hardcover-project](https://github.com/gamarra-enterprise/Hardcover-project)**
+Proyecto de librería. Hecho con **PHP**.
+
+</td>
+<td width="50%" valign="top">
+
+**Próximamente**
+Más proyectos con **React** y **Node.js** en camino.
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -63,10 +78,6 @@ Interfaces web con **React** y servicios con **Node.js**. Me importa tanto cómo
 
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=gamarra-enterprise&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0d12&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5&ring_color=7aa2f7&rank_icon=github" alt="estadísticas"/>
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamarra-enterprise&layout=donut&theme=tokyonight&hide_border=true&bg_color=0b0d12&title_color=7aa2f7&text_color=c0caf5" alt="lenguajes"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=gamarra-enterprise&theme=tokyonight&hide_border=true&background=0b0d12&stroke=2a2f45&ring=7aa2f7&fire=bb9af7&currStreakLabel=7aa2f7&sideLabels=c0caf5&currStreakNum=ffffff&sideNums=ffffff&dates=565f89" alt="racha"/>
 
 </div>
 
