@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="56" viewBox="0 0 340 56" role="img" aria-label="CORREO: gamarra.code@gmail.com">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7aa2f7" stop-opacity="0"/><stop offset=".5" stop-color="#7aa2f7" stop-opacity=".4"/><stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect x="2" y="2" width="336" height="52" rx="14"/></clipPath>
+    <style>
+      .mono { font: 600 11px "Consolas","Fira Code","DejaVu Sans Mono",monospace; letter-spacing: 3px; }
+      .v { font: 600 16px "Segoe UI","Helvetica Neue",Arial,sans-serif; letter-spacing: .3px; }
+      .sw { animation: sw 4.5s ease-in-out infinite; }
+      .ic { animation: bob 3s ease-in-out infinite; }
+      @keyframes sw { from { transform: translateX(-120px); } to { transform: translateX(360px); } }
+      @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2px); } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+  </defs>
+  <rect x="2" y="2" width="336" height="52" rx="14" fill="#12151f" stroke="#7aa2f7" stroke-opacity=".7" stroke-width="1.4"/>
+  <g clip-path="url(#c)"><rect class="sw" x="0" y="2" width="120" height="52" fill="url(#beam)"/></g>
+  <g transform="translate(22 16)"><g class="ic" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="0" y="3" width="24" height="18" rx="3"/><path d="M1 5l11 8 11-8"/></g></g>
+  <text class="mono" x="62" y="23" fill="#7aa2f7">CORREO</text>
+  <text class="v" x="62" y="42" fill="#e4ecff">gamarra.code@gmail.com</text>
+</svg>

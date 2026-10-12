@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="56" viewBox="0 0 340 56" role="img" aria-label="GITHUB: gamarra-enterprise">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#bb9af7" stop-opacity="0"/><stop offset=".5" stop-color="#bb9af7" stop-opacity=".4"/><stop offset="1" stop-color="#bb9af7" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect x="2" y="2" width="336" height="52" rx="14"/></clipPath>
+    <style>
+      .mono { font: 600 11px "Consolas","Fira Code","DejaVu Sans Mono",monospace; letter-spacing: 3px; }
+      .v { font: 600 16px "Segoe UI","Helvetica Neue",Arial,sans-serif; letter-spacing: .3px; }
+      .sw { animation: sw 4.5s ease-in-out infinite; }
+      .ic { animation: bob 3s ease-in-out infinite; }
+      @keyframes sw { from { transform: translateX(-120px); } to { transform: translateX(360px); } }
+      @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2px); } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+  </defs>
+  <rect x="2" y="2" width="336" height="52" rx="14" fill="#12151f" stroke="#bb9af7" stroke-opacity=".7" stroke-width="1.4"/>
+  <g clip-path="url(#c)"><rect class="sw" x="0" y="2" width="120" height="52" fill="url(#beam)"/></g>
+  <g transform="translate(22 16)"><g class="ic" fill="none" stroke="#bb9af7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4 1.3-4-2-6-2.5m12 5v-3.5c0-1 .1-1.4-.5-2 2.800-.3 5.500-1.400 5.500-6a4.600 4.600 0 0 0-1.300-3.200 4.300 4.300 0 0 0-.1-3.200s-1.100-.3-3.500 1.300a12 12 0 0 0-6.200 0C6.500 2.800 5.400 3.100 5.400 3.100a4.300 4.300 0 0 0-.1 3.200A4.600 4.600 0 0 0 4 9.500c0 4.600 2.700 5.700 5.500 6-.6.600-.6 1.200-.5 2V21"/></g></g>
+  <text class="mono" x="62" y="23" fill="#bb9af7">GITHUB</text>
+  <text class="v" x="62" y="42" fill="#e4ecff">gamarra-enterprise</text>
+</svg>

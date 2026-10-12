@@ -61,6 +61,10 @@
 
 ## Actividad
 
+<div align="center">
+  <img src="./assets/actividad.svg" alt="Actividad: contribuciones y lenguajes más usados" width="100%"/>
+</div>
+
 <table>
 <tr>
 <td width="50%" align="center" valign="middle">
@@ -82,12 +86,11 @@
 
 <div align="center">
 
-¿Tienes un proyecto o quieres colaborar? Escríbeme.
+<img src="./assets/contacto.svg" alt="¿Tienes una idea? Hagámosla realidad. Escríbeme si quieres colaborar" width="100%"/>
 
-<br/><br/>
-
-<a href="mailto:gamarra.code@gmail.com"><img src="https://img.shields.io/badge/CORREO-gamarra.code%40gmail.com-12151f?style=for-the-badge&logo=gmail&logoColor=7aa2f7&labelColor=12151f&color=12151f" alt="Correo"/></a>
-<a href="https://github.com/gamarra-enterprise"><img src="https://img.shields.io/badge/GITHUB-gamarra--enterprise-12151f?style=for-the-badge&logo=github&logoColor=bb9af7&labelColor=12151f&color=12151f" alt="GitHub"/></a>
+<a href="mailto:gamarra.code@gmail.com"><img src="./assets/contacto-correo.svg" alt="Correo: gamarra.code@gmail.com" height="56"/></a>
+&nbsp;
+<a href="https://github.com/gamarra-enterprise"><img src="./assets/contacto-github.svg" alt="GitHub: gamarra-enterprise" height="56"/></a>
 
 <br/><br/>
 

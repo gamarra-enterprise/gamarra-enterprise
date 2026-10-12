@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Contacto: ¿Tienes una idea? Hablemos. Escríbeme si quieres colaborar">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#bb9af7" stop-opacity="0"/><stop offset=".5" stop-color="#bb9af7" stop-opacity=".3"/><stop offset="1" stop-color="#bb9af7" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect x="10" y="8" width="1180" height="134" rx="18"/></clipPath>
+    <style>
+      .mono { font: 500 12px "Consolas","Fira Code","DejaVu Sans Mono",monospace; letter-spacing: 3px; }
+      .sans { font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif; }
+      .dot { animation: pulse 2.4s ease-in-out infinite; }
+      .sw { animation: sw 6s ease-in-out infinite; }
+      .ln { stroke-dasharray: 6 8; animation: flow 3s linear infinite; }
+      @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+      @keyframes flow { to { stroke-dashoffset: -28; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+      @keyframes sw { from { transform: translateX(-400px); } to { transform: translateX(1200px); } }
+      .rev { animation: rev 9s ease-in-out infinite; }
+      @keyframes rev { 0%,6% { opacity: 0; transform: translateY(8px); } 14%,88% { opacity: 1; transform: translateY(0); } 96%,100% { opacity: 0; } }
+      .ring { transform-box: fill-box; transform-origin: center; animation: ping 2.6s ease-out infinite; }
+      @keyframes ping { 0% { transform: scale(.5); opacity: .8; } 100% { transform: scale(2.4); opacity: 0; } }
+    </style>
+  </defs>
+  <rect x="10" y="8" width="1180" height="134" rx="18" fill="#0f121a" stroke="url(#g)" stroke-opacity=".6" stroke-width="1.4"/>
+  <g clip-path="url(#c)"><rect class="sw" x="0" y="8" width="400" height="134" fill="url(#beam)"/></g>
+  <circle class="ring" cx="472" cy="38" r="5" fill="none" stroke="#9ece6a" stroke-width="1.5"/>
+  <circle class="dot" cx="472" cy="38" r="4" fill="#9ece6a"/>
+  <text class="mono" x="488" y="42" fill="#9ece6a">DISPONIBLE PARA COLABORAR</text>
+  <g class="rev"><text class="sans" x="600" y="88" fill="#ffffff" font-size="32" font-weight="800" text-anchor="middle" letter-spacing=".5">¿Tienes una idea? <tspan fill="url(#g)">Hagámosla realidad.</tspan></text>
+  <text class="sans" x="600" y="120" fill="#7f849c" font-size="16" text-anchor="middle" letter-spacing=".5">Proyectos, colaboraciones o simplemente conversar de tecnología: escríbeme.</text></g>
+</svg>
