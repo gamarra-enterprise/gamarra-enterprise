@@ -71,6 +71,8 @@
 
 <img src="./assets/contacto.svg" alt="Construyamos algo juntos. Escríbeme para propuestas de trabajo o colaboraciones" width="100%"/>
 
+<br/>
+
 <a href="mailto:gamarra.code@gmail.com"><img src="./assets/contacto-correo.svg" alt="Correo: gamarra.code@gmail.com" height="56"/></a>
 &nbsp;
 <a href="https://github.com/gamarra-enterprise"><img src="./assets/contacto-github.svg" alt="GitHub: gamarra-enterprise" height="56"/></a>
