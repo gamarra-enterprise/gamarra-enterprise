@@ -81,7 +81,8 @@ for i, (k, v) in enumerate(top):
     y = 66 + i * 34; pct = v / tot * 100; bw = max(6, 330 * pct / 100 / (top[0][1] / tot) if top else 6)
     b += f'<g class="in" style="animation-delay:{.2+i*.12}s"><text class="t" x="636" y="{y+14}">{escape(k)}</text><rect x="760" y="{y+3}" width="330" height="14" rx="7" fill="#171b27"/>'
     b += f'<rect class="bar" x="760" y="{y+3}" width="{bw:.0f}" height="14" rx="7" fill="url(#g)" style="animation-delay:{.3+i*.12}s"/><text class="p" x="1170" y="{y+15}" text-anchor="end">{pct:.1f}%</text></g>'
-if not top: b += '<text class="sub" x="636" y="100">Sin datos todavía</text>'
+if not top:
+    b += '<g class="in"><text class="t" x="900" y="118" text-anchor="middle">Proyectos principales en repositorios privados</text><text class="sub" x="900" y="146" text-anchor="middle">Los lenguajes se mostrarán aquí cuando haya código público.</text></g>'
 open("assets/estadisticas.svg", "w", encoding="utf-8").write(svg(1200, 250, "Estadísticas de GitHub", b, '<rect x="10" y="10" width="1180" height="230" rx="16"/>'))
 
 # ---- actividad ----
