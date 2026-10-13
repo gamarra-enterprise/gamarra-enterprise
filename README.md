@@ -42,7 +42,7 @@
 ## Proyectos
 
 <p align="center">
-  <a href="https://github.com/gamarra-enterprise/Hardcover-project"><img src="./assets/proyecto-hardcover.svg" alt="Proyecto destacado: Hardcover Bookery, tienda en línea de libros y productos afines hecha con Laravel, Livewire, PostgreSQL y Docker. Lenguajes: PHP 57.8%, Blade 23.1%, HTML 10.4%, CSS 5.9%, JavaScript 2.6%. Haz clic para ver el repositorio." width="63%"/></a>
+  <img src="./assets/proyecto-hardcover.svg" alt="Proyecto destacado: Hardcover Bookery, tienda en línea de libros y productos afines hecha con Laravel, Livewire, PostgreSQL y Docker. En desarrollo; el código es privado." width="63%"/>
   <img src="./assets/proyecto-proximamente.svg" alt="Próximamente: nuevos proyectos de distintas áreas" width="36%"/>
 </p>
 

@@ -25,3 +25,6 @@ if repos:
     svg = re.sub(r"<!--AHORA-->.*?<!--/AHORA-->", f"<!--AHORA-->{text}<!--/AHORA-->", svg)
     open(path, "w", encoding="utf-8").write(svg)
     print(text)
+else:
+    svg = re.sub(r"<!--AHORA-->.*?<!--/AHORA-->", "<!--AHORA-->Proyectos en desarrollo<!--/AHORA-->", svg)
+    open(path, "w", encoding="utf-8").write(svg)

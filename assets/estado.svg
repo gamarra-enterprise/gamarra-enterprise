@@ -32,7 +32,7 @@
     <rect x="222" width="300" height="24" fill="#12151f"/><rect x="222" width="62" height="24" fill="#1b2030"/>
     <text class="lab" x="234" y="16">ESTADO</text>
     <circle class="dot" cx="299" cy="12" r="3" fill="#9ece6a"/>
-    <text class="val w w1" x="311" y="16"><!--AHORA-->Activo en Hardcover-project · hace 13 h<!--/AHORA--></text>
+    <text class="val w w1" x="311" y="16"><!--AHORA-->Proyectos en desarrollo<!--/AHORA--></text>
     <text class="val w w2" x="311" y="16">En formación continua</text>
     <text class="val w w3" x="311" y="16">Diseño de interfaces</text>
     <rect class="sw" x="222" y="0" width="90" height="24" fill="url(#beam)" style="animation-delay:-2.5s"/>
